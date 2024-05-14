@@ -1,3 +1,6 @@
+# publish-markdown-notes
+This is a project for the publication of Obsidian Notes or Mark Down Files.
+
 # Svelte + Vite
 
 This template should help get you started developing with Svelte in Vite.
