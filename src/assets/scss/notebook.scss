@@ -1,0 +1,113 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header.header,
+footer.footer {
+    width: 280px;
+    height: 100%;
+    overflow: hidden;
+}
+
+header.header {
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+footer.footer {
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+header.header img.logo {
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+}
+
+header.header h1 {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+header.header .form-check {
+    text-align: right;
+}
+
+header.header .form-check input {
+    float: none;
+}
+
+main.main {
+    flex-grow: 1;
+    width: 1300px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+}
+
+main.main article.note {
+    max-width: 700px;
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+main.main article.note-single {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main.main article.note-left {
+    background-color: inherit;
+}
+
+main.main article.note-right {
+    background-color: inherit;
+}
+
+.note .note-close {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    font-size: 24px;
+}
+
+section.contact span.logo-wrapper {
+    border-radius: 5px;
+    line-height: 1rem;
+}
+
+section.contact span.logo-wrapper img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+}
+
