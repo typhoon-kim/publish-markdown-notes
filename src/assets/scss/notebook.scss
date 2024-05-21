@@ -26,16 +26,9 @@ footer.footer {
     width: 280px;
     height: 100%;
     overflow: hidden;
-}
-
-header.header {
-    padding: 1rem;
+    padding: 0.5rem;
     box-sizing: border-box;
-}
-
-footer.footer {
-    padding: 1rem;
-    box-sizing: border-box;
+    flex-shrink: 0;
 }
 
 header.header img.logo {
@@ -59,34 +52,27 @@ header.header .form-check input {
 
 main.main {
     flex-grow: 1;
-    width: 1300px;
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
 }
 
 main.main article.note {
-    max-width: 700px;
-    height: 100%;
-    overflow-y: scroll;
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    flex-grow: 1;
 }
 
 main.main article.note-single {
     margin-left: auto;
     margin-right: auto;
+    max-width: 70%;
 }
 
-main.main article.note-left {
-    background-color: inherit;
-}
-
-main.main article.note-right {
-    background-color: inherit;
+main.main article.note-left, main.main article.note-right {
+    width: 45%;
 }
 
 .note .note-close {
@@ -110,4 +96,3 @@ section.contact span.logo-wrapper img {
     width: 1rem;
     height: 1rem;
 }
-
