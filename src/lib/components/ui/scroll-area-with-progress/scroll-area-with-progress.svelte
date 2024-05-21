@@ -21,17 +21,14 @@
 		if (orientation === "vertical") {
 			const totalHeight = content.scrollHeight - viewport.clientHeight;
 			value = (viewport.scrollTop / totalHeight) * max;
-			console.log(value);
 		} else if (orientation === "horizontal") {
 			const totalWidth = content.scrollWidth - viewport.clientWidth;
 			value = (viewport.scrollLeft / totalWidth) * max;
-			console.log(value);
 		}
 	};
 
 	// Attach scroll event listener
 	onMount(() => {
-		console.log(viewport);
 		if (viewport) {
 			viewport.addEventListener('scroll', updateProgress);
 		}

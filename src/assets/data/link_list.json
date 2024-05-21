@@ -322,5 +322,185 @@
     "alias": "Create a note",
     "url": "Create your first note",
     "from": "4302653fdb05855d281c8345740e82d4"
+  },
+  {
+    "type": "obsidian",
+    "alias": "wikilinks",
+    "url": "Internal link",
+    "from": "3aad9f875d275c865738eb7b1b545ee2"
+  },
+  {
+    "type": "obsidian",
+    "alias": "customized",
+    "url": "#Customizations",
+    "from": "3aad9f875d275c865738eb7b1b545ee2"
+  },
+  {
+    "type": "obsidian",
+    "alias": "second option",
+    "url": "Format your notes#^376b9d",
+    "from": "6ad8c04feac7b129461b2b625e3977d5"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Embeds",
+    "url": "Embeds",
+    "from": "740e64d0c47f8eb4c268d2de866abdb1"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Plugins makes Obsidian special for you",
+    "url": "Plugins makes Obsidian special for you",
+    "from": "740e64d0c47f8eb4c268d2de866abdb1"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Plugins make Obsidian special for you",
+    "url": "Plugins make Obsidian special for you",
+    "from": "740e64d0c47f8eb4c268d2de866abdb1"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Internal link",
+    "url": "Internal link",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Embeds",
+    "url": "Embeds",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Heading",
+    "url": "Heading",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Emphasis",
+    "url": "Emphasis",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Lists",
+    "url": "Lists",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Images",
+    "url": "Images",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Links",
+    "url": "Links",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Blockquote",
+    "url": "Blockquote",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Inline code",
+    "url": "Inline code",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Code block",
+    "url": "Code block",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Task",
+    "url": "Task",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Table",
+    "url": "Table",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Strikethrough",
+    "url": "Strikethrough",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Highlighting",
+    "url": "Highlighting",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Horizontal divider",
+    "url": "Horizontal divider",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Footnote",
+    "url": "Footnote",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Math",
+    "url": "Math",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Comment",
+    "url": "Comment",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Callout",
+    "url": "Callout",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Diagram",
+    "url": "Diagram",
+    "from": "bdfeb059b23f76c2ffe1bdf0d5b9f31e"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Embeds",
+    "url": "Embeds",
+    "from": "356b50b2290fcbe2555201760731d2ae"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Formatting",
+    "url": "Format your notes\\",
+    "from": "98613ef37509465b6e123b642b9650fa"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Callouts",
+    "url": "Callouts\\",
+    "from": "98613ef37509465b6e123b642b9650fa"
+  },
+  {
+    "type": "obsidian",
+    "alias": "Callouts",
+    "url": "Callout\\",
+    "from": "98613ef37509465b6e123b642b9650fa"
   }
 ]

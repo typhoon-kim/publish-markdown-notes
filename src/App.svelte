@@ -10,13 +10,12 @@
     import ZeroMd from "zero-md";
 
 	onMount( () => {
-		customElements.define("zero-md", ZeroMd);
+		if (!customElements.get("zero-md")) customElements.define("zero-md", ZeroMd);
 
 		const hour = new Date().getHours();
-		if (hour > 6 && hour <= 18) setMode("light");
-		else setMode("dark");
+		if (hour > 6 && hour <= 18) setMode("light"); else setMode("dark");
 
-		console.log(JSON.stringify(noteList, null, 2));
+		setMode("light");
 	});
 </script>
 

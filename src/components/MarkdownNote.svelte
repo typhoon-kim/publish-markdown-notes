@@ -6,7 +6,7 @@
 
 <ScrollAreaWithProgress class="h-full w-full">
     <h1 class="text-2xl">{note.title}</h1>
-    <zero-md class="markdown-body w-full" src={note.route + "/" + note.title}>
+    <zero-md class="markdown-body w-full" src={"publish/" + note.route + "/" + note.title}>
         <template>
             <style>
                 * {
@@ -16,7 +16,7 @@
                 }
 
                 .markdown-body {
-                    background-color: inherit !important;
+                    background-color: 222.2 84% 4.9% !important;
                 }
             </style>
             {#if $mode === "dark"}
