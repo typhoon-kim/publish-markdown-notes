@@ -13,7 +13,7 @@
 <main class="main">
     {#if leftNote == null && rightNote == null}
         <article class="border rounded-md shadow-md note note-left" >
-            <MarkdownNote note={noteList[1]} />
+            <MarkdownNote note={noteList[10]} />
         </article>
         <Separator orientation="vertical" />
         <article class="border rounded-md shadow-md note note-right" >
