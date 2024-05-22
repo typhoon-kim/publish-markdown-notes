@@ -1,9 +1,5 @@
 <script>
-    import {
-        ContactRound,
-        Link,
-        Mail,
-    } from "lucide-svelte";
+    import { ContactRound, Link, Mail } from "lucide-svelte";
 
     const links = [
         {

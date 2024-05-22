@@ -4,7 +4,7 @@
     import Switch from "$lib/components/ui/switch/switch.svelte";
     import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
     import Label from "$lib/components/ui/label/label.svelte";
-    import Menu from "./menu.svelte";
+    import Menu from "../contents/menu/menu.svelte";
     import { CommandEmpty, CommandInput, CommandList, Root as CommandRoot } from "$lib/components/ui/command";
     import Button from "$lib/components/ui/button/button.svelte";
 

@@ -2,8 +2,8 @@
     import { Badge } from "$lib/components/ui/badge";
     import { Separator } from "$lib/components/ui/separator/index.js";
     import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
-    import ContactMe from "./ContactMe.svelte";
-    import { ArrowBigDown, ArrowDown } from "lucide-svelte";
+    import { ArrowBigDown } from "lucide-svelte";
+    import ContactMe from "../contents/contact_me.svelte";
 </script>
 
 <footer class="footer flex flex-col">

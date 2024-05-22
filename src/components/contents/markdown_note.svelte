@@ -4,7 +4,6 @@
     import { mode } from "mode-watcher";
     export let note;
 
-    console.log(note.route)
     const breadcrumb = note.route.split("/");
     const title = note.title.replace(".md", "");
 </script>
@@ -24,30 +23,18 @@
         </BreadcrumbList>
     </Breadcrumb>
     <h1 class="text-4xl my-2 font-extrabold p-2">{title}</h1>
-    <zero-md class="markdown-body w-full" src={"publish/" + note.route + "/" + note.title}>
+    <zero-md class="markdown-body w-full" src={"publish" + note.route + "/" + note.title}>
+        <script type="text/markdown">
+            > [!CAUTION]
+            > 😱 문서를 찾을 수 없습니다.
+        </script>
         <template>
+            <link rel="stylesheet" href={`/node_modules/github-markdown-css/github-markdown-${$mode}.css`} />
             <style>
-                * {
-                    max-width: 100%;
-                    overflow-x: auto;
-                    overflow-y: hidden;
-                }
-
                 .markdown-body {
-                    background-color: 222.2 84% 4.9% !important;
+                    background-color: #00000000 !important;
                 }
             </style>
-            {#if $mode === "dark"}
-                <link
-                    rel="stylesheet"
-                    href="../../node_modules/github-markdown-css/github-markdown-dark.css"
-                />
-            {:else}
-                <link
-                    rel="stylesheet"
-                    href="../../node_modules/github-markdown-css/github-markdown-light.css"
-                />
-            {/if}
         </template>
     </zero-md>
 </ScrollAreaWithProgress>
