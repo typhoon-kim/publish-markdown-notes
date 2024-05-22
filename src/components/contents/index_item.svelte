@@ -41,8 +41,8 @@
                 {note.summary}
             </div>
         </div>
-        {#if note.thumbnail && note.thumbnail !== "DEFAULT"}
-            <img class="w-36 ps-4 shrink" src={note.thumbnail} alt="thumbnail">
+        {#if note.images && note.images.length > 0}
+            <img class="w-40 ps-4 shrink" src={note.images[0]} alt="thumbnail">
         {/if}
     </CardContent>
     {#if note.tags && note.tags.length > 0}

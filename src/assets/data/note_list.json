@@ -99,7 +99,9 @@
       }
     ],
     "summary": "GitHub Markdown fixture My fixtures Left-aligned image   Right-aligned image   Alerts  [!NOTE] Highlights information that users should take into account, even when skimming.   [!IMPORTANT] Crucial information necessary for users to succeed.   [!WARNING] Critical content demanding immediate user att...",
-    "thumbnail": "http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+    "images": [
+      "http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+    ]
   },
   {
     "id": "bb0e950ee59bdeab6fb1af7035298f6c",
@@ -141,7 +143,26 @@
       }
     ],
     "summary": "   This project is licensed under the terms of the MIT license.    📝 very simple portfolio 심플한 플랫 디자인의 정적 웹 포트폴리오/이력서 페이지를 제작할 수 있는 템플릿 프로젝트에요 🤗     어려울 것 같다구요? 댓츠노노.markdown 과 json만 작성할 줄 안다면, 손쉽게 만들 수 있어요!😇       사용된 기술 next.js typescript tailwind next-seo react-markdown     🧐 왜 만들었나요?      🐢...",
-    "thumbnail": "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/55b04e83-1a4c-4711-92c2-f01ef8dad570"
+    "images": [
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/55b04e83-1a4c-4711-92c2-f01ef8dad570",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/8805dc25-1268-4c9f-9481-bdd20b8851f5",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/ab36da7f-1f05-43df-b111-1fd7e732daf8",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/add2d05c-0f75-4a05-ac78-aefee22db548",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/9434454e-53b8-44fc-8e34-5d0371025901",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/2c61f196-f46d-4a0a-9ca9-c1d01280761b",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/e66c3fc6-25bc-42ff-8867-bf713e989e52",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/6b02d7f6-df01-4c73-9830-a6d590e40564",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/4ea22fc8-92a9-402a-998b-5b92957f6724",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/807ef4e8-14d1-4e68-990a-9496bc55da63",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/94040844-5c8d-48bd-9ae4-4644c504da63",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/25b4c229-d577-4bc7-89e7-2629e3660eb4",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/2ddbd623-21f9-4521-8d11-05e6353726d1",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/24b49321-9a49-4ff9-9e8b-366a2893aeb7",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/f0ab905d-5e62-4970-a681-dfa761781df9",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/af2ee54f-583f-427e-b24b-ad108cedbc8e",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/39d2e158-f018-4d0d-8d1b-d17596de6c05",
+      "https://github.com/sjoleee/very-simple-portfolio/assets/82137004/1dac46fe-9028-4d29-aa60-55ce424e2539"
+    ]
   },
   {
     "id": "449be1f50ce16ad1ccf736cef4988be3",
@@ -188,7 +209,7 @@
       }
     ],
     "summary": "Project Title A brief description of what this project does and who it&#39;s for API Reference Get all items   GET /api/items     Parameter Type Description    api_key string Required. Your API key   Get item   GET /api/items/${id}     Parameter Type Description    id string Required. Id of item to ...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "bb00146b76a29338e3dd4696013bfa37",
@@ -199,7 +220,7 @@
     "tags": [],
     "links": [],
     "summary": "We started making Obsidian with plugins in mind because everyone seems to take notes differently. Offering a generic set of tools for a note-taker is like offering only one configuration of kitchen for passionate home cooks. There are two types of plugins in Obsidian: core plugins and community plug...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "5db57818a628d8961ac6d3f5f9463a0c",
@@ -221,7 +242,7 @@
       }
     ],
     "summary": "Hi, welcome to Obsidian!  I’m interested in Obsidian First of all, tell me a little bit about what&#39;s your experience with note-taking apps like?  [[No prior experience|I have no prior experience]]  [[From standard note-taking|I’ve used note-taking apps like Evernote and OneNote]]  [[From plain-t...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "12bc9d202d1a9e9c071a295d533d042e",
@@ -232,7 +253,7 @@
     "tags": [],
     "links": [],
     "summary": "Different than most note-taking apps out there, an Obsidian vault is not a notebook on our server or a bundle in a special format on your computer. In Obsidian, a vault is a plain folder on your computer. By plain, I mean it&#39;s just like a folder you created and put some files in. You can open it...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "4219989946c8a66d73011c89bc0a0a2f",
@@ -243,7 +264,7 @@
     "tags": [],
     "links": [],
     "summary": "Obsidian is similar to plain-text based note-taking apps in the sense that [[Vault is just a local folder|a vault is just a local folder]]. Having already taken the unconventional route of plain-text note-taking, chances are you’re already familiar with the benefit of it. Obsidian has the same benef...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "e549450e1d76869e0698096a728fbcdd",
@@ -254,7 +275,7 @@
     "tags": [],
     "links": [],
     "summary": "Great, that means you should already be familiar with taking notes! But hold on a second. There’s no silver bullet solution that works perfectly for everyone. Obsidian works best if you care about what we care about. Do you have any of the following concerns below? → [[Vault is just a local folder|I...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "d6294e6af814456d32cd5d95626525b1",
@@ -265,7 +286,7 @@
     "tags": [],
     "links": [],
     "summary": "There are plenty of note-taking apps out there, so congratulations on finding Obsidian! You may have heard that Obsidian is really hard to use, but we assure you  There’s no silver bullet solution that works perfectly for everyone. Obsidian works best if you care about what we care about. Do you hav...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "1ae31d7c4afd033927a592d23e3e8db2",
@@ -276,7 +297,7 @@
     "tags": [],
     "links": [],
     "summary": "&gt; Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.  \\- Doug Engelbart, 1961   Human beings face ever more complex and urgent problems, and their effectiv...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "e3c22d65d105e18076dd88ccbc9d504f",
@@ -287,7 +308,7 @@
     "tags": [],
     "links": [],
     "summary": "As of v0.14.0, Obsidian supports callout blocks, sometimes called &quot;admonitions&quot;. Callout blocks are written as a blockquote, inspired by the &quot;alert&quot; syntax from Microsoft Docs. Callouts are also be supported natively on Obsidian Publish.  [!NOTE] For compatibility reasons, if you...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "044aff2fd8b14e32195eba6e820897a2",
@@ -304,7 +325,7 @@
       }
     ],
     "summary": "Syntax highlight is supported with the language specified after the first set of backticks. We use prismjs for syntax highlighting, a list of supported languages can be found at their site ```js function fancyAlert(arg) {   if(arg) {     $.facebox({div:'#foo'})   } } ```  function fancyAlert(arg) { ...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "39317355e18dff00c7417d6c4f81bf7b",
@@ -315,7 +336,7 @@
     "tags": [],
     "links": [],
     "summary": "Use %% to enclose comments, which will be parsed as Markdown, but will not show up in the preview. Here is some inline comments: %%You can&#39;t see this text%% (Can&#39;t see it)  Here is a block comment: %% It can span multiple lines %%  Here is some inline comments: %%You can&#39;t see this text%...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "3c17331cd279beb0e7cb286055e71454",
@@ -337,7 +358,7 @@
       }
     ],
     "summary": "Obsidian uses Mermaid to render diagrams and charts. Mermaid also provides a helpful live editor. ```mermaid sequenceDiagram     Alice->>+John: Hello John, how are you?     Alice->>+John: John, can you hear me?     John-->>-Alice: Hi Alice, I can hear you!     John-->>-Alice: I feel great! ```  sequ...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "98e227ba36de2c89ee998422f0a94baf",
@@ -348,7 +369,7 @@
     "tags": [],
     "links": [],
     "summary": "Embed another file (read more about [[Embeds]]). Here&#39;s an embedded section: ![[Plugins makes Obsidian special for you]]  ![[Plugins make Obsidian special for you]] ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "82e01624c6ebd08efc824abdf4417385",
@@ -359,7 +380,7 @@
     "tags": [],
     "links": [],
     "summary": "*This text will be italic* _This will also be italic_  This text will be italic This will also be italic **This text will be bold** __This will also be bold__  This text will be bold This will also be bold _You **can** combine them_  You can combine them ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "8fcc6746a4f2b7924c22c5cc1a29441d",
@@ -370,7 +391,7 @@
     "tags": [],
     "links": [],
     "summary": "Here&#39;s a simple footnote,[^1] and here&#39;s a longer one.[^bignote]  [^1]: meaningful!  [^bignote]: Here&#39;s one with multiple paragraphs and code.      Indent paragraphs to include them in the footnote.      `{ my code }`      Add as many paragraphs as you like.  Here&#39;s a simple footnote...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "51d1cb000f0d9c067a884b7034317741",
@@ -381,7 +402,7 @@
     "tags": [],
     "links": [],
     "summary": "Obsidian is a Markdown-based note-taking and knowledge base app.  We currently support the formats below: ![[Internal link]] ![[Embeds]] ![[Heading]] ![[Emphasis]] ![[Lists]] ![[Images]] ![[Links]] ![[Blockquote]] ![[Inline code]] ![[Code block]] ![[Task]] ![[Table]] ![[Strikethrough]] ![[Highlighti...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "20322344481593257b80cf11ad5f976a",
@@ -392,7 +413,7 @@
     "tags": [],
     "links": [],
     "summary": "# This is a heading 1 ## This is a heading 2 ### This is a heading 3  #### This is a heading 4 ##### This is a heading 5 ###### This is a heading 6  This is a heading 1 This is a heading 2 This is a heading 3 This is a heading 4 This is a heading 5 This is a heading 6 ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "f7643d62ce7025c9930ef1b25559a69d",
@@ -403,7 +424,7 @@
     "tags": [],
     "links": [],
     "summary": "Use two equal signs to ==highlight text==.  Use two equal signs to ==highlight text==. ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "5268ad8285645dc89f43016a8ce57b67",
@@ -414,7 +435,7 @@
     "tags": [],
     "links": [],
     "summary": "Use three stars ***, minuses ---, or underscores ___ in a new line to produce an horizontal bar.   ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "8f5644a36acd4cb62f453017d34e6c56",
@@ -425,7 +446,7 @@
     "tags": [],
     "links": [],
     "summary": "![Obsidian](https://obsidian.md/images/banner.png)   Resizing images Example of this above image resized to 200 pixels wide: ![Obsidian|200](https://obsidian.md/images/banner.png)   ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "5c095e95f8ee1c9ad01974bd95e4221f",
@@ -436,7 +457,7 @@
     "tags": [],
     "links": [],
     "summary": "Text inside `backticks` on a line will be formatted like code.  Text inside backticks on a line will be formatted like code.  ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "f85d9eefc34b52ca730d6a6a7aa9733c",
@@ -447,7 +468,7 @@
     "tags": [],
     "links": [],
     "summary": "Link to a page: [[Embeds]].  Link to a page: [[Embeds]]. ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "6b3f8371e53737957942f3f1d39554c4",
@@ -494,7 +515,7 @@
       }
     ],
     "summary": "External links Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image. http://obsidian.md - automatic! [Obsidian](http://obsidian.md)  http://obsidian.md - automatic! Obsidian Obsidian URI links Obsidian URI links can be used to open not...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "316d97b3d7b6fa4361ff84d5c61d6b59",
@@ -505,7 +526,7 @@
     "tags": [],
     "links": [],
     "summary": "- Item 1 - Item 2   - Item 2a   - Item 2b  1. Item 1 1. Item 2 1. Item 3    1. Item 3a    1. Item 3b   Item 1 Item 2 Item 2a Item 2b     Item 1 Item 2 Item 3 Item 3a Item 3b    ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "56d56c3c1ee9e525aeb2366f57f6dca6",
@@ -527,7 +548,7 @@
       }
     ],
     "summary": "$$\\begin{vmatrix}a &amp; b\\\\ c &amp; d \\end{vmatrix}=ad-bc$$  $$\\begin{vmatrix}a &amp; b\\ c &amp; d \\end{vmatrix}=ad-bc$$ You can also do inline math like $e^{2i\\pi} = 1$ . Obsidian uses Mathjax. You can check which packages are supported in Mathjax here. ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "5e126c52cb82886262bd70aa2e2d8d57",
@@ -538,7 +559,7 @@
     "tags": [],
     "links": [],
     "summary": "Any word wrapped with two tildes (like ~~this~~) will appear crossed out.  Any word wrapped with two tildes (like this) will appear crossed out. ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "ea44d1a547ed598018951bb869ccd1f5",
@@ -549,7 +570,7 @@
     "tags": [],
     "links": [],
     "summary": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |: First Header | Second Header ------------ | ------------ Content from cell 1 | Content from cell 2 Content in the first column | Content in the sec...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "a11e2ed3245602d83bf6b9c4154d80d1",
@@ -562,7 +583,7 @@
     ],
     "links": [],
     "summary": "- [x] #tags, [links](), **formatting** supported - [x] list syntax required (any unordered or ordered list supported) - [x] this is a complete item - [?] this is also a complete item (works with every character) - [ ] this is an incomplete item - [ ] tasks can be clicked in Preview to be checked off...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "b1899d66ea8e8cb08c79341dd9250f4b",
@@ -573,7 +594,7 @@
     "tags": [],
     "links": [],
     "summary": "A vault is a folder on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects. The first time you open Obsidian, you&#39;ll be asked to add a new vault. To create a new empty vault from the vault...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "ea20ec7a7efe08e4fbb8cf587ba74788",
@@ -590,7 +611,7 @@
       }
     ],
     "summary": "Notes in Obsidian are stored as plain text files, which makes them incredibly portable. By writing your notes in plain text, they&#39;ll outlive any app—even Obsidian itself. If you plan to keep your notes for a long time, this is great news! Create a new note To create a new note:  Press Ctrl+N (or...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "1c2249fa3067f5ed6a68d2e09a45c9f0",
@@ -601,7 +622,7 @@
     "tags": [],
     "links": [],
     "summary": "You may have heard that Obsidian is very complicated to set up. We don’t think that’s true—the ideal setup would be complicated, but that’s true for all tools. It just takes lots of trial and error to get something that works well for you. Instead of complicated, we would call that a labor of love. ...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "4b168779d4c0f6174a3fee3bdbfd3989",
@@ -612,18 +633,7 @@
     "tags": [],
     "links": [],
     "summary": "While Obsidian is great for taking notes, the true power of Obsidian lies in being able to link your notes together. By understanding how one piece of information relates to another, you can improve your ability to remember them and to form deeper insights. In this guide, you&#39;ll learn how to cre...",
-    "thumbnail": "DEFAULT"
-  },
-  {
-    "id": "9690a29db1da2162df812169dd607cf3",
-    "title": "Callout.md",
-    "route": "/Guides/Form",
-    "created": "2024-05-12T07:26:42.800Z",
-    "updated": "2024-05-12T07:26:42.800Z",
-    "tags": [],
-    "links": [],
-    "summary": "As of v0.14.0, Obsidian supports callout blocks, sometimes called &quot;admonitions&quot;. Callout blocks are written as a blockquote, inspired by the &quot;alert&quot; syntax from Microsoft Docs. Callouts are also be supported natively on Obsidian Publish.  [!NOTE] For compatibility reasons, if you...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "d929f0d2316c35817403bcff76e9be96",
@@ -634,7 +644,18 @@
     "tags": [],
     "links": [],
     "summary": "&gt; Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.  \\- Doug Engelbart, 1961   Human beings face ever more complex and urgent problems, and their effectiv...",
-    "thumbnail": "DEFAULT"
+    "images": []
+  },
+  {
+    "id": "9690a29db1da2162df812169dd607cf3",
+    "title": "Callout.md",
+    "route": "/Guides/Form",
+    "created": "2024-05-12T07:26:42.800Z",
+    "updated": "2024-05-12T07:26:42.800Z",
+    "tags": [],
+    "links": [],
+    "summary": "As of v0.14.0, Obsidian supports callout blocks, sometimes called &quot;admonitions&quot;. Callout blocks are written as a blockquote, inspired by the &quot;alert&quot; syntax from Microsoft Docs. Callouts are also be supported natively on Obsidian Publish.  [!NOTE] For compatibility reasons, if you...",
+    "images": []
   },
   {
     "id": "1c5e171d073235a41fe6e063ce135f01",
@@ -651,7 +672,7 @@
       }
     ],
     "summary": "Syntax highlight is supported with the language specified after the first set of backticks. We use prismjs for syntax highlighting, a list of supported languages can be found at their site ```js function fancyAlert(arg) {   if(arg) {     $.facebox({div:'#foo'})   } } ```  function fancyAlert(arg) { ...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "c1d033db0e4591936804aad8da104f6f",
@@ -662,7 +683,7 @@
     "tags": [],
     "links": [],
     "summary": "Use %% to enclose comments, which will be parsed as Markdown, but will not show up in the preview. Here is some inline comments: %%You can&#39;t see this text%% (Can&#39;t see it)  Here is a block comment: %% It can span multiple lines %%  Here is some inline comments: %%You can&#39;t see this text%...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "e9054f82c0fabacdfe20cdfd008baf79",
@@ -684,7 +705,7 @@
       }
     ],
     "summary": "Obsidian uses Mermaid to render diagrams and charts. Mermaid also provides a helpful live editor. ```mermaid sequenceDiagram     Alice->>+John: Hello John, how are you?     Alice->>+John: John, can you hear me?     John-->>-Alice: Hi Alice, I can hear you!     John-->>-Alice: I feel great! ```  sequ...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "87cb787a6dcca6f4ef4eb602a6b62b81",
@@ -695,7 +716,7 @@
     "tags": [],
     "links": [],
     "summary": "Embed another file (read more about [[Embeds]]). Here&#39;s an embedded section: ![[Plugins makes Obsidian special for you]]  ![[Plugins make Obsidian special for you]] ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "829d0165bcaae73561b275859e6ef0c5",
@@ -706,7 +727,7 @@
     "tags": [],
     "links": [],
     "summary": "*This text will be italic* _This will also be italic_  This text will be italic This will also be italic **This text will be bold** __This will also be bold__  This text will be bold This will also be bold _You **can** combine them_  You can combine them ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "5c42164504488f666795016f2a817f87",
@@ -717,7 +738,7 @@
     "tags": [],
     "links": [],
     "summary": "Here&#39;s a simple footnote,[^1] and here&#39;s a longer one.[^bignote]  [^1]: meaningful!  [^bignote]: Here&#39;s one with multiple paragraphs and code.      Indent paragraphs to include them in the footnote.      `{ my code }`      Add as many paragraphs as you like.  Here&#39;s a simple footnote...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "468ebc59e5d021141d6fad11841c1a34",
@@ -728,7 +749,7 @@
     "tags": [],
     "links": [],
     "summary": "Obsidian is a Markdown-based note-taking and knowledge base app.  We currently support the formats below: ![[Internal link]] ![[Embeds]] ![[Heading]] ![[Emphasis]] ![[Lists]] ![[Images]] ![[Links]] ![[Blockquote]] ![[Inline code]] ![[Code block]] ![[Task]] ![[Table]] ![[Strikethrough]] ![[Highlighti...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "59c1631c75b50c48e168eb3cf95dc27d",
@@ -739,7 +760,7 @@
     "tags": [],
     "links": [],
     "summary": "# This is a heading 1 ## This is a heading 2 ### This is a heading 3  #### This is a heading 4 ##### This is a heading 5 ###### This is a heading 6  This is a heading 1 This is a heading 2 This is a heading 3 This is a heading 4 This is a heading 5 This is a heading 6 ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "3affc4df5f6eaaa24c6c61df0329859a",
@@ -750,18 +771,7 @@
     "tags": [],
     "links": [],
     "summary": "Use two equal signs to ==highlight text==.  Use two equal signs to ==highlight text==. ",
-    "thumbnail": "DEFAULT"
-  },
-  {
-    "id": "dd8c00571905ca2c9ce78a3570f81b7f",
-    "title": "Images.md",
-    "route": "/Guides/Form",
-    "created": "2024-05-12T07:27:57.946Z",
-    "updated": "2024-05-12T07:27:57.946Z",
-    "tags": [],
-    "links": [],
-    "summary": "![Obsidian](https://obsidian.md/images/banner.png)   Resizing images Example of this above image resized to 200 pixels wide: ![Obsidian|200](https://obsidian.md/images/banner.png)   ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "7e9d60fe7b83362c7da6033b959e9470",
@@ -772,7 +782,18 @@
     "tags": [],
     "links": [],
     "summary": "Use three stars ***, minuses ---, or underscores ___ in a new line to produce an horizontal bar.   ",
-    "thumbnail": "DEFAULT"
+    "images": []
+  },
+  {
+    "id": "dd8c00571905ca2c9ce78a3570f81b7f",
+    "title": "Images.md",
+    "route": "/Guides/Form",
+    "created": "2024-05-12T07:27:57.946Z",
+    "updated": "2024-05-12T07:27:57.946Z",
+    "tags": [],
+    "links": [],
+    "summary": "![Obsidian](https://obsidian.md/images/banner.png)   Resizing images Example of this above image resized to 200 pixels wide: ![Obsidian|200](https://obsidian.md/images/banner.png)   ",
+    "images": []
   },
   {
     "id": "7476f9c2b39e97133ca78950e3eb75a1",
@@ -783,7 +804,7 @@
     "tags": [],
     "links": [],
     "summary": "Text inside `backticks` on a line will be formatted like code.  Text inside backticks on a line will be formatted like code.  ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "490be3e79a0a1d2f294bc1851913ad45",
@@ -794,7 +815,7 @@
     "tags": [],
     "links": [],
     "summary": "Link to a page: [[Embeds]].  Link to a page: [[Embeds]]. ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "ad7ad93c026e8b444d488fca00351450",
@@ -841,7 +862,7 @@
       }
     ],
     "summary": "External links Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image. http://obsidian.md - automatic! [Obsidian](http://obsidian.md)  http://obsidian.md - automatic! Obsidian Obsidian URI links Obsidian URI links can be used to open not...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "7f85e1a9637cf0ac7b4c162740cfb9ba",
@@ -852,7 +873,7 @@
     "tags": [],
     "links": [],
     "summary": "- Item 1 - Item 2   - Item 2a   - Item 2b  1. Item 1 1. Item 2 1. Item 3    1. Item 3a    1. Item 3b   Item 1 Item 2 Item 2a Item 2b     Item 1 Item 2 Item 3 Item 3a Item 3b    ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "0e3db15e0af3f2b939197bac6a564a42",
@@ -874,7 +895,7 @@
       }
     ],
     "summary": "$$\\begin{vmatrix}a &amp; b\\\\ c &amp; d \\end{vmatrix}=ad-bc$$  $$\\begin{vmatrix}a &amp; b\\ c &amp; d \\end{vmatrix}=ad-bc$$ You can also do inline math like $e^{2i\\pi} = 1$ . Obsidian uses Mathjax. You can check which packages are supported in Mathjax here. ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "2bf227f4cf12887bd9a5d54502a5d6da",
@@ -885,7 +906,7 @@
     "tags": [],
     "links": [],
     "summary": "Any word wrapped with two tildes (like ~~this~~) will appear crossed out.  Any word wrapped with two tildes (like this) will appear crossed out. ",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "8ddb9451f3210519ecda23fea03b1b09",
@@ -896,7 +917,7 @@
     "tags": [],
     "links": [],
     "summary": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |: First Header | Second Header ------------ | ------------ Content from cell 1 | Content from cell 2 Content in the first column | Content in the sec...",
-    "thumbnail": "DEFAULT"
+    "images": []
   },
   {
     "id": "ac4f26f057df568a6c1c0f355e69040b",
@@ -909,6 +930,6 @@
     ],
     "links": [],
     "summary": "- [x] #tags, [links](), **formatting** supported - [x] list syntax required (any unordered or ordered list supported) - [x] this is a complete item - [?] this is also a complete item (works with every character) - [ ] this is an incomplete item - [ ] tasks can be clicked in Preview to be checked off...",
-    "thumbnail": "DEFAULT"
+    "images": []
   }
 ]

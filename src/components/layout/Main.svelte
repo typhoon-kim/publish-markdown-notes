@@ -1,5 +1,5 @@
 <script>
-    import Index from "../contents/index.svelte";
+    import IndexHome from "../contents/index_home.svelte";
     import NoteLeft from "../contents/note_left.svelte";
     import NoteRight from "../contents/note_right.svelte";
     import NoteSingle from "../contents/note_single.svelte";
@@ -12,7 +12,7 @@
 </script>
 
 <main class="main">
-    <Index {noteList} title="전체글" />
-    <NoteLeft note={noteList[0]} />
-    <NoteRight note={noteList[0]} />
+    <IndexHome {noteList} title="전체글" />
+    <!-- <NoteLeft note={noteList[0]} />
+    <NoteRight note={noteList[0]} /> -->
 </main>
