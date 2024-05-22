@@ -2,9 +2,9 @@
 	import "./assets/scss/notebook.scss";
 	import noteList from "./assets/data/note_list.json"
 	import { ModeWatcher, setMode } from "mode-watcher";
-	import Footer from "./components/Footer.svelte";
-	import Header from "./components/Header.svelte";
-	import Main from "./components/Main.svelte";
+	import Footer from "./components/layout/Footer.svelte";
+	import Header from "./components/layout/Header.svelte";
+	import Main from "./components/layout/Main.svelte";
     import { onMount } from "svelte";
     import Separator from "$lib/components/ui/separator/separator.svelte";
     import ZeroMd from "zero-md";
