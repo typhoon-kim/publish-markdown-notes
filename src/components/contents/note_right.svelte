@@ -1,7 +1,9 @@
 <script>
     import MarkdownNote from "./markdown_note.svelte";
     export let note;
+	let className = undefined;
+	export { className as class };
 </script>
-<article class="border rounded-md shadow-md note note-right" >
+<article class={`border rounded-md shadow-md note note-right ${className}`} >
     <MarkdownNote {note} />
 </article> 

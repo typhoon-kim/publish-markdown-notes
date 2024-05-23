@@ -3,12 +3,14 @@
     import ScrollAreaWithProgress from "$lib/components/ui/scroll-area-with-progress/scroll-area-with-progress.svelte";
     import { mode } from "mode-watcher";
     export let note;
+	let className = undefined;
+	export { className as class };
 
     const breadcrumb = note.route.split("/");
     const title = note.title.replace(".md", "");
 </script>
 
-<ScrollAreaWithProgress class="h-full w-full">
+<ScrollAreaWithProgress class={`h-full w-full ${className}`}>
     <Breadcrumb>
         <BreadcrumbList>
             {#each breadcrumb as item}
