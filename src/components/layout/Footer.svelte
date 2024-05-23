@@ -4,12 +4,17 @@
     import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
     import { ArrowBigDown } from "lucide-svelte";
     import ContactMe from "../contents/contact_me.svelte";
+    import FullDialog from "../contents/full_dialog.svelte";
+    import GraphView from "../graph_view.svelte";
 </script>
 
 <footer class="footer flex flex-col">
-    <aside>
+    <aside class="relative border p-2 w-full h-1/4">
         <h3 class="sr-only">graph-view</h3>
-        <canvas></canvas>
+        <FullDialog class="absolute top-0 start-0" title="Graph View" >
+            <GraphView id="graph-dialog" />
+        </FullDialog>
+        <GraphView id="graph-inner" />
     </aside>
     <Separator class="my-3"/>
     <div>
