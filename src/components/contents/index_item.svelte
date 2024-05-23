@@ -46,11 +46,11 @@
         {/if}
     </CardContent>
     {#if note.tags && note.tags.length > 0}
-    <CardFooter>
-        <ul class="flex place-self-start">
-            <Tags class="me-1" />
+    <CardFooter class="flex">
+        <Tags class="me-1 shrink-0" />
+        <ul class="flex place-self-start flex-wrap">
             {#each note.tags as tag}
-                <li class="mx-0.5"><Badge>{tag}</Badge></li>
+                <li class="m-0.5"><Badge>{tag}</Badge></li>
             {/each}
         </ul>
     </CardFooter>
