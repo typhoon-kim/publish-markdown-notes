@@ -9,7 +9,7 @@
 <article class="border rounded-md shadow-md note note-single flex flex-col">
     <section class="container flex flex-col">
         <h1 class="text-3xl h-16 font-extrabold w-full grow flex justify-center place-items-center">
-            <span>{title}</span>
+            <span>{`${title} (${noteList.length})`}</span>
         </h1>
         <Separator class="my-2" />
     </section>

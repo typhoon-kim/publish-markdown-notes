@@ -5,6 +5,113 @@
     "route": "",
     "created": "2024-05-15T18:22:29.469Z",
     "updated": "2024-05-15T18:22:29.469Z",
+    "outline": [
+      {
+        "2": "GitHub Markdown fixture"
+      },
+      {
+        "3": "My fixtures"
+      },
+      {
+        "4": "Left-aligned image"
+      },
+      {
+        "4": "Right-aligned image"
+      },
+      {
+        "4": "Alerts"
+      },
+      {
+        "3": "Code snippet"
+      },
+      {
+        "5": "Table of Contents"
+      },
+      {
+        "2": "Headers"
+      },
+      {
+        "1": "H1"
+      },
+      {
+        "2": "H2"
+      },
+      {
+        "3": "H3"
+      },
+      {
+        "4": "H4"
+      },
+      {
+        "5": "H5"
+      },
+      {
+        "6": "H6"
+      },
+      {
+        "1": "Alt-H1"
+      },
+      {
+        "2": "Alt-H2"
+      },
+      {
+        "2": "Emphasis"
+      },
+      {
+        "2": "Lists"
+      },
+      {
+        "2": "Inline HTML"
+      },
+      {
+        "2": "Links"
+      },
+      {
+        "2": "Images"
+      },
+      {
+        "2": "Code and Syntax Highlighting"
+      },
+      {
+        "2": "Tables"
+      },
+      {
+        "2": "Blockquotes"
+      },
+      {
+        "2": "Inline HTML"
+      },
+      {
+        "2": "Horizontal Rule"
+      },
+      {
+        "2": "Line Breaks"
+      },
+      {
+        "2": "Youtube videos"
+      },
+      {
+        "2": "Task List"
+      },
+      {
+        "1": "A heading"
+      },
+      {
+        "2": "Another Heading"
+      },
+      {
+        "2": "Unordered"
+      },
+      {
+        "2": "Ordered"
+      },
+      {
+        "2": "Nested"
+      },
+      {
+        "1": "Markdown: Syntax"
+      }
+    ],
     "tags": [
       "bugID",
       "1",
@@ -109,6 +216,77 @@
     "route": "",
     "created": "2024-05-15T12:47:32.586Z",
     "updated": "2024-05-15T12:47:32.586Z",
+    "outline": [
+      {
+        "1": "📝 very simple portfolio"
+      },
+      {
+        "3": "사용된 기술"
+      },
+      {
+        "1": "🧐 왜 만들었나요?"
+      },
+      {
+        "1": "🎨 디자인이 궁금해요!"
+      },
+      {
+        "1": "change log"
+      },
+      {
+        "1": "🛠️ Usage"
+      },
+      {
+        "2": "Setup"
+      },
+      {
+        "2": "data"
+      },
+      {
+        "2": "resumeTitle"
+      },
+      {
+        "2": "information"
+      },
+      {
+        "2": "workExperience"
+      },
+      {
+        "3": "markdown"
+      },
+      {
+        "3": "image"
+      },
+      {
+        "2": "project"
+      },
+      {
+        "3": "markdown & image"
+      },
+      {
+        "2": "activity"
+      },
+      {
+        "2": "education"
+      },
+      {
+        "2": "certificate"
+      },
+      {
+        "2": "COLOR 변경하기"
+      },
+      {
+        "2": "SEO"
+      },
+      {
+        "2": "Vercel 배포하기"
+      },
+      {
+        "2": "Google Analytics"
+      },
+      {
+        "1": "Done"
+      }
+    ],
     "tags": [],
     "links": [
       {
@@ -170,6 +348,50 @@
     "route": "",
     "created": "2024-05-04T17:09:26.419Z",
     "updated": "2024-05-03T20:19:49.940Z",
+    "outline": [
+      {
+        "1": "Project Title"
+      },
+      {
+        "2": "API Reference"
+      },
+      {
+        "4": "Get all items"
+      },
+      {
+        "4": "Get item"
+      },
+      {
+        "4": "add(num1, num2)"
+      },
+      {
+        "2": "Appendix"
+      },
+      {
+        "2": "Contributing"
+      },
+      {
+        "2": "Demo"
+      },
+      {
+        "2": "Documentation"
+      },
+      {
+        "2": "Color Reference"
+      },
+      {
+        "2": "Acknowledgements"
+      },
+      {
+        "2": "Authors"
+      },
+      {
+        "2": "Badges"
+      },
+      {
+        "2": "Deployment"
+      }
+    ],
     "tags": [
       "0a192f",
       "f8f8f8",
@@ -217,6 +439,14 @@
     "route": "",
     "created": "2024-05-12T07:25:09.936Z",
     "updated": "2024-05-12T07:25:09.936Z",
+    "outline": [
+      {
+        "2": "Modular core plugins"
+      },
+      {
+        "2": "Wild community plugins"
+      }
+    ],
     "tags": [],
     "links": [],
     "summary": "We started making Obsidian with plugins in mind because everyone seems to take notes differently. Offering a generic set of tools for a note-taker is like offering only one configuration of kitchen for passionate home cooks. There are two types of plugins in Obsidian: core plugins and community plug...",
@@ -228,6 +458,17 @@
     "route": "",
     "created": "2024-05-12T07:25:08.342Z",
     "updated": "2024-05-12T07:25:08.342Z",
+    "outline": [
+      {
+        "2": "I’m interested in Obsidian"
+      },
+      {
+        "2": "Official Help Site"
+      },
+      {
+        "2": "What is this place?"
+      }
+    ],
     "tags": [],
     "links": [
       {
@@ -250,6 +491,7 @@
     "route": "",
     "created": "2024-05-12T07:25:32.352Z",
     "updated": "2024-05-12T07:25:32.352Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Different than most note-taking apps out there, an Obsidian vault is not a notebook on our server or a bundle in a special format on your computer. In Obsidian, a vault is a plain folder on your computer. By plain, I mean it&#39;s just like a folder you created and put some files in. You can open it...",
@@ -261,6 +503,7 @@
     "route": "/Adventurer",
     "created": "2024-05-12T07:28:13.865Z",
     "updated": "2024-05-12T07:28:13.865Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Obsidian is similar to plain-text based note-taking apps in the sense that [[Vault is just a local folder|a vault is just a local folder]]. Having already taken the unconventional route of plain-text note-taking, chances are you’re already familiar with the benefit of it. Obsidian has the same benef...",
@@ -272,6 +515,7 @@
     "route": "/Adventurer",
     "created": "2024-05-12T07:28:14.587Z",
     "updated": "2024-05-12T07:28:14.587Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Great, that means you should already be familiar with taking notes! But hold on a second. There’s no silver bullet solution that works perfectly for everyone. Obsidian works best if you care about what we care about. Do you have any of the following concerns below? → [[Vault is just a local folder|I...",
@@ -283,6 +527,7 @@
     "route": "/Adventurer",
     "created": "2024-05-12T10:24:36.720Z",
     "updated": "2024-05-12T10:24:36.720Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "There are plenty of note-taking apps out there, so congratulations on finding Obsidian! You may have heard that Obsidian is really hard to use, but we assure you  There’s no silver bullet solution that works perfectly for everyone. Obsidian works best if you care about what we care about. Do you hav...",
@@ -294,6 +539,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:26:04.000Z",
     "updated": "2024-05-12T07:26:04.000Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "&gt; Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.  \\- Doug Engelbart, 1961   Human beings face ever more complex and urgent problems, and their effectiv...",
@@ -305,6 +551,20 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:26:42.800Z",
     "updated": "2024-05-12T07:26:42.800Z",
+    "outline": [
+      {
+        "3": "Types"
+      },
+      {
+        "3": "Title and body"
+      },
+      {
+        "3": "Folding"
+      },
+      {
+        "3": "Customizations"
+      }
+    ],
     "tags": [],
     "links": [],
     "summary": "As of v0.14.0, Obsidian supports callout blocks, sometimes called &quot;admonitions&quot;. Callout blocks are written as a blockquote, inspired by the &quot;alert&quot; syntax from Microsoft Docs. Callouts are also be supported natively on Obsidian Publish.  [!NOTE] For compatibility reasons, if you...",
@@ -316,6 +576,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:26:45.501Z",
     "updated": "2024-05-12T07:26:45.501Z",
+    "outline": [],
     "tags": [],
     "links": [
       {
@@ -333,6 +594,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:26:54.790Z",
     "updated": "2024-05-12T07:26:54.790Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Use %% to enclose comments, which will be parsed as Markdown, but will not show up in the preview. Here is some inline comments: %%You can&#39;t see this text%% (Can&#39;t see it)  Here is a block comment: %% It can span multiple lines %%  Here is some inline comments: %%You can&#39;t see this text%...",
@@ -344,6 +606,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:11.745Z",
     "updated": "2024-05-12T07:27:11.745Z",
+    "outline": [],
     "tags": [],
     "links": [
       {
@@ -366,6 +629,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:28.017Z",
     "updated": "2024-05-12T07:27:28.017Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Embed another file (read more about [[Embeds]]). Here&#39;s an embedded section: ![[Plugins makes Obsidian special for you]]  ![[Plugins make Obsidian special for you]] ",
@@ -377,6 +641,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:38.615Z",
     "updated": "2024-05-12T07:27:38.615Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "*This text will be italic* _This will also be italic_  This text will be italic This will also be italic **This text will be bold** __This will also be bold__  This text will be bold This will also be bold _You **can** combine them_  You can combine them ",
@@ -388,6 +653,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:48.367Z",
     "updated": "2024-05-12T07:27:48.367Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Here&#39;s a simple footnote,[^1] and here&#39;s a longer one.[^bignote]  [^1]: meaningful!  [^bignote]: Here&#39;s one with multiple paragraphs and code.      Indent paragraphs to include them in the footnote.      `{ my code }`      Add as many paragraphs as you like.  Here&#39;s a simple footnote...",
@@ -399,6 +665,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:50.513Z",
     "updated": "2024-05-12T07:27:50.513Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Obsidian is a Markdown-based note-taking and knowledge base app.  We currently support the formats below: ![[Internal link]] ![[Embeds]] ![[Heading]] ![[Emphasis]] ![[Lists]] ![[Images]] ![[Links]] ![[Blockquote]] ![[Inline code]] ![[Code block]] ![[Task]] ![[Table]] ![[Strikethrough]] ![[Highlighti...",
@@ -410,6 +677,26 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:51.943Z",
     "updated": "2024-05-12T07:27:51.943Z",
+    "outline": [
+      {
+        "1": "This is a heading 1"
+      },
+      {
+        "2": "This is a heading 2"
+      },
+      {
+        "3": "This is a heading 3"
+      },
+      {
+        "4": "This is a heading 4"
+      },
+      {
+        "5": "This is a heading 5"
+      },
+      {
+        "6": "This is a heading 6"
+      }
+    ],
     "tags": [],
     "links": [],
     "summary": "# This is a heading 1 ## This is a heading 2 ### This is a heading 3  #### This is a heading 4 ##### This is a heading 5 ###### This is a heading 6  This is a heading 1 This is a heading 2 This is a heading 3 This is a heading 4 This is a heading 5 This is a heading 6 ",
@@ -421,6 +708,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:52.825Z",
     "updated": "2024-05-12T07:27:52.825Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Use two equal signs to ==highlight text==.  Use two equal signs to ==highlight text==. ",
@@ -432,6 +720,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:54.310Z",
     "updated": "2024-05-12T07:27:54.310Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Use three stars ***, minuses ---, or underscores ___ in a new line to produce an horizontal bar.   ",
@@ -443,6 +732,11 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:57.946Z",
     "updated": "2024-05-12T07:27:57.946Z",
+    "outline": [
+      {
+        "4": "Resizing images"
+      }
+    ],
     "tags": [],
     "links": [],
     "summary": "![Obsidian](https://obsidian.md/images/banner.png)   Resizing images Example of this above image resized to 200 pixels wide: ![Obsidian|200](https://obsidian.md/images/banner.png)   ",
@@ -454,6 +748,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:27:59.555Z",
     "updated": "2024-05-12T07:27:59.555Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Text inside `backticks` on a line will be formatted like code.  Text inside backticks on a line will be formatted like code.  ",
@@ -465,6 +760,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:28:06.851Z",
     "updated": "2024-05-12T07:28:06.851Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Link to a page: [[Embeds]].  Link to a page: [[Embeds]]. ",
@@ -476,6 +772,17 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:28:13.035Z",
     "updated": "2024-05-12T07:28:13.035Z",
+    "outline": [
+      {
+        "4": "External links"
+      },
+      {
+        "4": "Obsidian URI links"
+      },
+      {
+        "4": "Escaping"
+      }
+    ],
     "tags": [],
     "links": [
       {
@@ -523,6 +830,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:25:00.288Z",
     "updated": "2024-05-12T07:25:00.288Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "- Item 1 - Item 2   - Item 2a   - Item 2b  1. Item 1 1. Item 2 1. Item 3    1. Item 3a    1. Item 3b   Item 1 Item 2 Item 2a Item 2b     Item 1 Item 2 Item 3 Item 3a Item 3b    ",
@@ -534,6 +842,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:25:00.289Z",
     "updated": "2024-05-12T07:25:00.289Z",
+    "outline": [],
     "tags": [],
     "links": [
       {
@@ -556,6 +865,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:25:00.290Z",
     "updated": "2024-05-12T07:25:00.290Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Any word wrapped with two tildes (like ~~this~~) will appear crossed out.  Any word wrapped with two tildes (like this) will appear crossed out. ",
@@ -567,6 +877,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:25:00.291Z",
     "updated": "2024-05-12T07:25:00.291Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |: First Header | Second Header ------------ | ------------ Content from cell 1 | Content from cell 2 Content in the first column | Content in the sec...",
@@ -578,6 +889,7 @@
     "route": "/Formatting",
     "created": "2024-05-12T07:25:00.292Z",
     "updated": "2024-05-12T07:25:00.292Z",
+    "outline": [],
     "tags": [
       "tags"
     ],
@@ -591,6 +903,7 @@
     "route": "/Guides",
     "created": "2024-05-12T07:25:50.260Z",
     "updated": "2024-05-12T07:25:50.260Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "A vault is a folder on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects. The first time you open Obsidian, you&#39;ll be asked to add a new vault. To create a new empty vault from the vault...",
@@ -602,6 +915,17 @@
     "route": "/Guides",
     "created": "2024-05-12T07:25:56.439Z",
     "updated": "2024-05-12T07:25:56.439Z",
+    "outline": [
+      {
+        "2": "Create a new note"
+      },
+      {
+        "2": "Format your note"
+      },
+      {
+        "2": "Learn more"
+      }
+    ],
     "tags": [],
     "links": [
       {
@@ -619,6 +943,7 @@
     "route": "/Guides",
     "created": "2024-05-12T07:25:58.746Z",
     "updated": "2024-05-12T07:25:58.746Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "You may have heard that Obsidian is very complicated to set up. We don’t think that’s true—the ideal setup would be complicated, but that’s true for all tools. It just takes lots of trial and error to get something that works well for you. Instead of complicated, we would call that a labor of love. ...",
@@ -630,6 +955,20 @@
     "route": "/Guides",
     "created": "2024-05-12T07:26:00.494Z",
     "updated": "2024-05-12T07:26:00.494Z",
+    "outline": [
+      {
+        "2": "Step 1: Create a link"
+      },
+      {
+        "2": "Step 2: Create a link to a non-existing note"
+      },
+      {
+        "2": "Step 3: Navigate between notes"
+      },
+      {
+        "2": "Learn more"
+      }
+    ],
     "tags": [],
     "links": [],
     "summary": "While Obsidian is great for taking notes, the true power of Obsidian lies in being able to link your notes together. By understanding how one piece of information relates to another, you can improve your ability to remember them and to form deeper insights. In this guide, you&#39;ll learn how to cre...",
@@ -641,6 +980,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:26:04.000Z",
     "updated": "2024-05-12T07:26:04.000Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "&gt; Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.  \\- Doug Engelbart, 1961   Human beings face ever more complex and urgent problems, and their effectiv...",
@@ -652,6 +992,20 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:26:42.800Z",
     "updated": "2024-05-12T07:26:42.800Z",
+    "outline": [
+      {
+        "3": "Types"
+      },
+      {
+        "3": "Title and body"
+      },
+      {
+        "3": "Folding"
+      },
+      {
+        "3": "Customizations"
+      }
+    ],
     "tags": [],
     "links": [],
     "summary": "As of v0.14.0, Obsidian supports callout blocks, sometimes called &quot;admonitions&quot;. Callout blocks are written as a blockquote, inspired by the &quot;alert&quot; syntax from Microsoft Docs. Callouts are also be supported natively on Obsidian Publish.  [!NOTE] For compatibility reasons, if you...",
@@ -663,6 +1017,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:26:45.501Z",
     "updated": "2024-05-12T07:26:45.501Z",
+    "outline": [],
     "tags": [],
     "links": [
       {
@@ -680,6 +1035,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:26:54.790Z",
     "updated": "2024-05-12T07:26:54.790Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Use %% to enclose comments, which will be parsed as Markdown, but will not show up in the preview. Here is some inline comments: %%You can&#39;t see this text%% (Can&#39;t see it)  Here is a block comment: %% It can span multiple lines %%  Here is some inline comments: %%You can&#39;t see this text%...",
@@ -691,6 +1047,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:11.745Z",
     "updated": "2024-05-12T07:27:11.745Z",
+    "outline": [],
     "tags": [],
     "links": [
       {
@@ -713,6 +1070,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:28.017Z",
     "updated": "2024-05-12T07:27:28.017Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Embed another file (read more about [[Embeds]]). Here&#39;s an embedded section: ![[Plugins makes Obsidian special for you]]  ![[Plugins make Obsidian special for you]] ",
@@ -724,6 +1082,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:38.615Z",
     "updated": "2024-05-12T07:27:38.615Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "*This text will be italic* _This will also be italic_  This text will be italic This will also be italic **This text will be bold** __This will also be bold__  This text will be bold This will also be bold _You **can** combine them_  You can combine them ",
@@ -735,6 +1094,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:48.367Z",
     "updated": "2024-05-12T07:27:48.367Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Here&#39;s a simple footnote,[^1] and here&#39;s a longer one.[^bignote]  [^1]: meaningful!  [^bignote]: Here&#39;s one with multiple paragraphs and code.      Indent paragraphs to include them in the footnote.      `{ my code }`      Add as many paragraphs as you like.  Here&#39;s a simple footnote...",
@@ -746,6 +1106,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:50.513Z",
     "updated": "2024-05-12T07:27:50.513Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Obsidian is a Markdown-based note-taking and knowledge base app.  We currently support the formats below: ![[Internal link]] ![[Embeds]] ![[Heading]] ![[Emphasis]] ![[Lists]] ![[Images]] ![[Links]] ![[Blockquote]] ![[Inline code]] ![[Code block]] ![[Task]] ![[Table]] ![[Strikethrough]] ![[Highlighti...",
@@ -757,6 +1118,26 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:51.943Z",
     "updated": "2024-05-12T07:27:51.943Z",
+    "outline": [
+      {
+        "1": "This is a heading 1"
+      },
+      {
+        "2": "This is a heading 2"
+      },
+      {
+        "3": "This is a heading 3"
+      },
+      {
+        "4": "This is a heading 4"
+      },
+      {
+        "5": "This is a heading 5"
+      },
+      {
+        "6": "This is a heading 6"
+      }
+    ],
     "tags": [],
     "links": [],
     "summary": "# This is a heading 1 ## This is a heading 2 ### This is a heading 3  #### This is a heading 4 ##### This is a heading 5 ###### This is a heading 6  This is a heading 1 This is a heading 2 This is a heading 3 This is a heading 4 This is a heading 5 This is a heading 6 ",
@@ -768,6 +1149,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:52.825Z",
     "updated": "2024-05-12T07:27:52.825Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Use two equal signs to ==highlight text==.  Use two equal signs to ==highlight text==. ",
@@ -779,6 +1161,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:54.310Z",
     "updated": "2024-05-12T07:27:54.310Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Use three stars ***, minuses ---, or underscores ___ in a new line to produce an horizontal bar.   ",
@@ -790,6 +1173,11 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:57.946Z",
     "updated": "2024-05-12T07:27:57.946Z",
+    "outline": [
+      {
+        "4": "Resizing images"
+      }
+    ],
     "tags": [],
     "links": [],
     "summary": "![Obsidian](https://obsidian.md/images/banner.png)   Resizing images Example of this above image resized to 200 pixels wide: ![Obsidian|200](https://obsidian.md/images/banner.png)   ",
@@ -801,6 +1189,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:27:59.555Z",
     "updated": "2024-05-12T07:27:59.555Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Text inside `backticks` on a line will be formatted like code.  Text inside backticks on a line will be formatted like code.  ",
@@ -812,6 +1201,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:28:06.851Z",
     "updated": "2024-05-12T07:28:06.851Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Link to a page: [[Embeds]].  Link to a page: [[Embeds]]. ",
@@ -823,6 +1213,17 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:28:13.035Z",
     "updated": "2024-05-12T07:28:13.035Z",
+    "outline": [
+      {
+        "4": "External links"
+      },
+      {
+        "4": "Obsidian URI links"
+      },
+      {
+        "4": "Escaping"
+      }
+    ],
     "tags": [],
     "links": [
       {
@@ -870,6 +1271,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:25:00.288Z",
     "updated": "2024-05-12T07:25:00.288Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "- Item 1 - Item 2   - Item 2a   - Item 2b  1. Item 1 1. Item 2 1. Item 3    1. Item 3a    1. Item 3b   Item 1 Item 2 Item 2a Item 2b     Item 1 Item 2 Item 3 Item 3a Item 3b    ",
@@ -881,6 +1283,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:25:00.289Z",
     "updated": "2024-05-12T07:25:00.289Z",
+    "outline": [],
     "tags": [],
     "links": [
       {
@@ -903,6 +1306,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:25:00.290Z",
     "updated": "2024-05-12T07:25:00.290Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "Any word wrapped with two tildes (like ~~this~~) will appear crossed out.  Any word wrapped with two tildes (like this) will appear crossed out. ",
@@ -914,6 +1318,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:25:00.291Z",
     "updated": "2024-05-12T07:25:00.291Z",
+    "outline": [],
     "tags": [],
     "links": [],
     "summary": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |: First Header | Second Header ------------ | ------------ Content from cell 1 | Content from cell 2 Content in the first column | Content in the sec...",
@@ -925,6 +1330,7 @@
     "route": "/Guides/Form",
     "created": "2024-05-12T07:25:00.292Z",
     "updated": "2024-05-12T07:25:00.292Z",
+    "outline": [],
     "tags": [
       "tags"
     ],
