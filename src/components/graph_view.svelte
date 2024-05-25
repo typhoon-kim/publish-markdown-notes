@@ -1,63 +1,100 @@
 <script>
-    import { onMount } from "svelte";
-    import noteData from "../assets/data/note_test.json";
-    import tagData from "../assets/data/tag_test.json";
+    import { onMount, afterUpdate } from "svelte";
+    import tagList from "../assets/data/tag_list.json";
+    import noteList from "../assets/data/note_list.json";
+    import linkList from "../assets/data/link_list.json";
     import * as d3 from "d3";
+    import Switch from "$lib/components/ui/switch/switch.svelte";
+    import Label from "$lib/components/ui/label/label.svelte";
 
-    let graphId;
     export {graphId as id};
-
+    export let showTags = true;
+    export let tagSwitch = false;
+    
     let graph;
+    let graphId;
+
+    function getNoteIdByTitle(title) {
+        const noteData = noteList.filter((note) => {
+            return note.title == title + ".md";
+        });
+        
+        // console.log(title)
+        // console.log(noteData);
+
+        if (noteData.length == 0) return null;
+        else return noteData[0].id;
+    }
 
     function drawGraph(width, height) {
         const nodes = [];
         const links = [];
 
-        // Add notes as nodes
-        noteData.forEach((note) => {
-            nodes.push({ id: note.id, title: note.title, group: "note", url: "google.com" });
-            note.links.forEach((link) => {
-                links.push({ source: note.id, target: link });
-            });
+        // add tag nodes
+        if (showTags)
+        tagList.forEach(tag => {
+            nodes.push({
+                id: tag,
+                title: tag,
+                group: "tag",
+                url: `/index?tag=${tag}`
+            })
         });
 
-        // Add tags as nodes and connect them to notes
-        tagData.forEach((tag) => {
-            nodes.push({ id: tag.tag, title: tag.tag, group: "tag", url: "naver.com" });
-            tag.notes.forEach((noteId) => {
-                links.push({ source: tag.tag, target: noteId });
-            });
+        // add note nodes
+        noteList.forEach(note => {
+            nodes.push({
+                id: note.id,
+                title: note.title.replace(".md", ""),
+                group: "note",
+                url: `${note.route}/${note.title}`
+            })
+
+            // add tag to note links
+            if (showTags)
+            note.tags.forEach(tag => {
+                links.push({ source: tag, target: note.id });
+            })
         });
 
-        console.log(nodes);
-        console.log(links);
+        linkList.forEach(link => {
+            const targetNoteId = getNoteIdByTitle(link.url);
+            if (targetNoteId) links.push({ source: link.from, target: targetNoteId});
+        });
+
+        // Specify the color scale.
+        const color = d3.scaleOrdinal(d3.schemeCategory10);
 
         const svg = d3.select(`#${graphId}`)
-            .attr("viewBox", `0 0 ${width} ${height}`)
-            .attr("preserveAspectRatio", "xMidYMid meet")
+            .attr("width", width)
+            .attr("height", height)
+            .attr("viewBox", [0, 0, width, height])
+
+        svg.selectAll("*").remove();
 
         const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id((d) => d.id).distance(100))
-            .force("charge", d3.forceManyBody().strength(-300))
+            .force("link", d3.forceLink(links).id((d) => d.id))
+            .force("charge", d3.forceManyBody())
             .force("center", d3.forceCenter(width / 2, height / 2))
-            .on("tick", ticked);
+            .force("x", d3.forceX())
+            .force("y", d3.forceY())
 
         const link = svg.append("g")
-            .attr("class", "links")
+            .attr("stroke", "#999")
+            .attr("stroke-opacity", 0.6)
             .selectAll("line")
             .data(links)
-            .enter()
-            .append("line")
-            .attr("stroke", "#999")
-            .attr("stroke-opacity", 0.6);
+            .join("line")
+            .attr("stroke-width", d => Math.sqrt(d.value));
 
         const node = svg.append("g")
-            .attr("class", "nodes")
-            .selectAll("g")
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 1.5)
+            .selectAll("circle")
             .data(nodes)
-            .enter()
-            .append("g")
-            .attr("class", "node")
+            .join("circle")
+            .attr("r", 5)
+            .attr("fill", d => color(d.group))
             .call(d3.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended))
             .on("click", (event, d) => {
                 if (d.url) {
@@ -65,44 +102,44 @@
                 }
             });
 
-        node.append("circle")
-            .attr("r", 5)
-            .attr("fill", "#7f00ff")
-            .attr("stroke", "#fff")
-            .attr("stroke-width", 1.5);
-
         node.append("text")
             .text((d) => d.title)
             .attr("x", 6)
             .attr("y", 3)
-            .style("font", "10px sans-serif")
+            .style("font", "1rem sans-serif")
             .style("pointer-events", "none")
             .style("text-anchor", "middle");
 
-        function ticked() {
-            link.attr("x1", (d) => d.source.x)
-                .attr("y1", (d) => d.source.y)
-                .attr("x2", (d) => d.target.x)
-                .attr("y2", (d) => d.target.y);
+        simulation.on("tick", () => {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+            node
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+        });
 
-            node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+        // Reheat the simulation when drag starts, and fix the subject position.
+        function dragstarted(event) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+            event.subject.fx = event.subject.x;
+            event.subject.fy = event.subject.y;
         }
 
-        function dragstarted(event, d) {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            d.fx = d.x;
-            d.fy = d.y;
+        // Update the subject (dragged node) position during drag.
+        function dragged(event) {
+            event.subject.fx = event.x;
+            event.subject.fy = event.y;
         }
 
-        function dragged(event, d) {
-            d.fx = event.x;
-            d.fy = event.y;
-        }
-
-        function dragended(event, d) {
-            if (!event.active) simulation.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
+        // Restore the target alpha so the simulation cools after dragging ends.
+        // Unfix the subject position now that it’s no longer being dragged.
+        function dragended(event) {
+        if (!event.active) simulation.alphaTarget(0);
+            event.subject.fx = null;
+            event.subject.fy = null;
         }
     }
 
@@ -110,9 +147,21 @@
         const width = graph.clientWidth;
         const height = graph.clientHeight;
 
-        console.log(graph);
+        // console.log(graph);
 
         drawGraph(width, height);
     });
+
+    afterUpdate(() => {
+
+        const width = graph.clientWidth;
+        const height = graph.clientHeight;
+
+        drawGraph(width, height);
+    })
+
 </script>
+{#if tagSwitch}
+    <Label>태그<Switch class="mx-2 h-4 w-9" bind:checked={showTags} /></Label>
+{/if}
 <svg width="100%" height="100%" id={graphId} bind:this={graph}></svg>
