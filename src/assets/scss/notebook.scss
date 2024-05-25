@@ -37,7 +37,7 @@ header.header img.logo {
     height: 140px;
 }
 
-header.header h1 {
+header.header .title {
     font-size: 18pt;
     font-weight: bold;
 }
@@ -95,4 +95,13 @@ section.contact span.logo-wrapper img {
 .icon {
     width: 1rem;
     height: 1rem;
+}
+
+.note .active {
+    box-shadow: 0 0 0.25rem #5c4bf17a;
+    will-change: filter;
+}
+
+.dark .note.active {
+    box-shadow: 0 0 0.25rem #ff3e00aa;
 }

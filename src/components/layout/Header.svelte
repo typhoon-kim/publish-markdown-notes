@@ -46,7 +46,7 @@
                 <Button size="icon" variant="link" class={`${!search && "invisible"} text-muted-foreground`} on:click={ () => search = "" } >
                     <CircleX class="h-4 w-4" />
                 </Button>
-                <FullDialog open class="" title="Graph View (All)" tooltip="Graph View" tooltipAlign="right">
+                <FullDialog class="" title="Graph View" tooltip="Graph View" tooltipAlign="right">
                     <Waypoints slot="button-icon" />
                     <GraphView id="graph-full" tagSwitch />
                 </FullDialog>

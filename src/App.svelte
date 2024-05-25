@@ -8,6 +8,8 @@
     import { onMount } from "svelte";
     import Separator from "$lib/components/ui/separator/separator.svelte";
     import ZeroMd from "zero-md";
+    import { currentNote } from "$store";
+    import { writable } from "svelte/store";
 
 	onMount( () => {
 		if (!customElements.get("zero-md")) customElements.define("zero-md", ZeroMd);
@@ -17,6 +19,8 @@
 
 		setMode("light");
 	});
+
+	currentNote.set(noteList[0]);
 </script>
 
 <div class="wrapper">
