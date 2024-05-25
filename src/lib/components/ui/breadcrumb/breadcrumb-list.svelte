@@ -8,7 +8,7 @@
 <ol
 	bind:this={el}
 	class={cn(
-		"flex flex-wrap items-center gap-1.5 break-words text-sm text-muted-foreground sm:gap-2.5",
+		"flex flex-wrap items-center gap-0.5 break-words text-sm text-muted-foreground sm:gap-0.5",
 		className
 	)}
 	{...$$restProps}

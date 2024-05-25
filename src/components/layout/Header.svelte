@@ -5,14 +5,14 @@
     import ScrollArea from "$lib/components/ui/scroll-area/scroll-area.svelte";
     import Switch from "$lib/components/ui/switch/switch.svelte";
     import Label from "$lib/components/ui/label/label.svelte";
-    import Menu from "../contents/menu/menu.svelte";
+    import Menu from "../contents/menu/Menu.svelte";
     import Button from "$lib/components/ui/button/button.svelte";
-    import ContactMe from "../contents/contact_me.svelte";
+    import ContactMe from "../contents/ContactMe.svelte";
     import Badge from "$lib/components/ui/badge/badge.svelte";
-    import FullDialog from "../contents/full_dialog.svelte";
-    import GraphView from "../graph_view.svelte";
+    import FullDialog from "../contents/FullDialog.svelte";
+    import GraphView from "../GraphView.svelte";
+    import { noteList } from "$store";
 
-    export let noteList;
     let search = undefined;
 </script>
 
@@ -55,7 +55,7 @@
             <ScrollArea class="grow h-0 mt-1">
                 <CommandList>
                     <CommandEmpty>검색 결과가 없습니다.</CommandEmpty>
-                    <Menu noteList={noteList}/>
+                    <Menu {noteList}/>
                 </CommandList>
             </ScrollArea>
         </CommandRoot>

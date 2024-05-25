@@ -336,12 +336,6 @@
     "url": "#Customizations"
   },
   {
-    "from": "e9054f82c0fabacdfe20cdfd008baf79",
-    "type": "obsidian",
-    "alias": "second option",
-    "url": "Format your notes#^376b9d"
-  },
-  {
     "from": "87cb787a6dcca6f4ef4eb602a6b62b81",
     "type": "obsidian",
     "alias": "Embeds",
@@ -358,6 +352,12 @@
     "type": "obsidian",
     "alias": "Plugins make Obsidian special for you",
     "url": "Plugins make Obsidian special for you"
+  },
+  {
+    "from": "e9054f82c0fabacdfe20cdfd008baf79",
+    "type": "obsidian",
+    "alias": "second option",
+    "url": "Format your notes#^376b9d"
   },
   {
     "from": "468ebc59e5d021141d6fad11841c1a34",

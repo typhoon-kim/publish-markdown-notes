@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { link } from 'svelte-spa-router';
     import { CardHeader, Card, CardTitle, CardDescription, CardContent, CardFooter } from "$lib/components/ui/card";
     import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "$lib/components/ui/breadcrumb";
     import Badge from "$lib/components/ui/badge/badge.svelte";
@@ -7,8 +8,9 @@
 
     export let note;
 
-    const breadcrumb = note.route.split("/");
-    const title = note.title.replace(".md", "");
+    const breadcrumb = note.route;
+    const title = note.name;
+    const noteLink = `/book/${note.id}`;
 </script>
 
 <Card class="grow mx-10 my-6 py-4">
@@ -32,7 +34,7 @@
         </CardDescription>
         <Separator />
         <CardTitle class="text-2xl border-s-4 ps-2">
-            <a href="#none">{title}</a>
+            <a href={noteLink} use:link>{title}</a>
         </CardTitle>
     </CardHeader>
     <CardContent class="flex py-2 place-items-center mt-2">

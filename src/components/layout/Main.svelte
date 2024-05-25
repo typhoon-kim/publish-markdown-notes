@@ -1,26 +1,18 @@
 <script>
+    import IndexHome from "../contents/IndexHome.svelte";
     import { currentNote, leftNote, rightNote } from "$store";
-    import IndexHome from "../contents/index_home.svelte";
-    import NoteLeft from "../contents/note_left.svelte";
-    import NoteRight from "../contents/note_right.svelte";
-    import NoteSingle from "../contents/note_single.svelte";
-
-    export let noteList;
-    noteList.sort((note_a, note_b) => {
-        return note_b.updated - note_a.updated;
-    });
-
+    import Note from "../contents/Note.svelte";
 </script>
 
 <main class="main">
-    {#if $leftNote == null && $rightNote == null }
-        <IndexHome {noteList} title="전체글" />
-    {:else if $leftNote != null && $rightNote == null}
-        <NoteSingle class={$currentNote == $leftNote ? "active" : ""} note={$leftNote}></NoteSingle>
-    {:else if $leftNote == null && $rightNote != null}
-        <NoteSingle class={$currentNote == $rightNote ? "active" : ""} note={$rightNote}></NoteSingle>
-    {:else if $leftNote != null && $rightNote != null}
-        <NoteLeft class={$currentNote == $leftNote ? "active" : ""} note={$leftNote} />
-        <NoteRight class={$currentNote == $rightNote ? "active" : ""} note={$rightNote} />
+    {#if !$leftNote && !$rightNote }
+        <IndexHome />
+    {:else if $leftNote && !$rightNote }
+        <Note noteId={$leftNote}></Note>
+    {:else if !$leftNote && $rightNote }
+        <Note noteId={$rightNote}></Note>
+    {:else if $leftNote && $rightNote }
+        <Note class={$currentNote == $leftNote ? "active" : ""} noteId={$leftNote} side="left" />
+        <Note class={$currentNote == $rightNote ? "active" : ""} noteId={$rightNote} side="right" />
     {/if}
 </main>

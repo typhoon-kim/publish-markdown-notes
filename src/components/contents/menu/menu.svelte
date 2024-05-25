@@ -1,6 +1,6 @@
 <script>
-    import MenuGroup from "./menu_group.svelte";
-    import MenuItem from "./menu_item.svelte";
+    import MenuGroup from "./MenuGroup.svelte";
+    import MenuItem from "./MenuItem.svelte";
 
     export let noteList;
 
@@ -8,7 +8,7 @@
         const menu = {};
 
         notes.forEach((note) => {
-            const pathParts = note.route.split("/").filter(Boolean); // 빈 부분 제거
+            const pathParts = note.route.filter(Boolean); // 빈 부분 제거
             let currentLevel = menu;
 
             if (pathParts.length === 0) {
@@ -34,7 +34,7 @@
         return menu;
     }
 
-    let menuData = createMenuData(noteList);
+    let menuData = createMenuData($noteList);
     const {root, ...otherMenu} = menuData;
     menuData = {...otherMenu, root};
 </script>

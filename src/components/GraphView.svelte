@@ -16,7 +16,7 @@
 
     function getNoteIdByTitle(title) {
         const noteData = noteList.filter((note) => {
-            return note.title == title + ".md";
+            return note.name == title + ".md";
         });
         
         // console.log(title)
@@ -45,9 +45,9 @@
         noteList.forEach(note => {
             nodes.push({
                 id: note.id,
-                title: note.title.replace(".md", ""),
+                title: note.name,
                 group: "note",
-                url: `${note.route}/${note.title}`
+                url: `${note.route}/${note.name}`
             })
 
             // add tag to note links

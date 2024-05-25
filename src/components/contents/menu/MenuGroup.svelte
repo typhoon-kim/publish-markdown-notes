@@ -3,7 +3,7 @@
         Collapsible, CollapsibleTrigger, CollapsibleContent } from "$lib/components/ui/collapsible";
     import { CommandGroup, CommandSeparator } from "$lib/components/ui/command";
     import { ChevronDown, ChevronRight } from "lucide-svelte";
-    import MenuItem from "./menu_item.svelte";
+    import MenuItem from "./MenuItem.svelte";
 
     export let header;
     export let items;
