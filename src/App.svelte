@@ -10,8 +10,6 @@
 
 		const hour = new Date().getHours();
 		if (hour > 6 && hour <= 18) setMode("light"); else setMode("dark");
-
-		setMode("light");
 	});
 </script>
 <ModeWatcher />

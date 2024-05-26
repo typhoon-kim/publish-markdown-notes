@@ -35,8 +35,6 @@
     }
 
     let menuData = createMenuData($noteList);
-    const {root, ...otherMenu} = menuData;
-    menuData = {...otherMenu, root};
 </script>
 
 {#each Object.keys(menuData) as key}

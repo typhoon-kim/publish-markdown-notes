@@ -4,7 +4,7 @@
     import Main from "../components/layout/Main.svelte";
     import Footer from "../components/layout/Footer.svelte";
     import Separator from "$lib/components/ui/separator/separator.svelte";
-    import { location, querystring } from "svelte-spa-router";
+    import { location, querystring, replace } from "svelte-spa-router";
     import { currentNote, leftNote, rightNote } from "$store";
     import { onMount } from "svelte";
     export let params;
@@ -14,6 +14,8 @@
                 leftNote.set(null);
                 rightNote.set(null);
                 currentNote.set(null);
+        } else if($location === "/book") {
+            replace("/");
         } else if ($location.startsWith("/book")) {
             if (params) {
                 if (params.left) leftNote.set(params.left); else leftNote.set(null);
