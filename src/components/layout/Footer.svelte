@@ -5,14 +5,16 @@
     import { ExternalLink, ListOrdered, LogIn, LogOut, Tag } from "lucide-svelte";
     import FullDialog from "../contents/FullDialog.svelte";
     import GraphView from "../GraphView.svelte";
-    import { currentNote } from "$store";
+    import { currentNote, getNote } from "$store";
+
+    $: note = getNote($currentNote);
 </script>
 
 <footer class="footer flex flex-col text-sm">
     <aside class="shrink relative border p-2 w-full h-1/6">
         <h2 class="hidden">graph-view</h2>
         {#if $currentNote}
-            <FullDialog class="absolute top-1 start-1" title={`Graph View (${$currentNote.name})`} tooltip="Graph View">
+            <FullDialog class="absolute top-1 start-1" title={`Graph View (${note.name})`} tooltip="Graph View">
                 <GraphView id="graph-dialog" tagSwitch />
             </FullDialog>
             <GraphView id="graph-inner" />
@@ -23,7 +25,7 @@
         <h2 class="flex place-items-center"><Tag class="h-4" />태그</h2>
         {#if $currentNote}
             <ul class="flex flex-row place-content-center flex-wrap">
-                {#each $currentNote.tags as tag}
+                {#each note.tags as tag}
                     <li class="m-0.5">
                         <Badge class="h-4 px-1.5"><a href="#none">{tag}</a></Badge>
                     </li>
@@ -37,7 +39,7 @@
             <h2 class="flex place-items-center"><ListOrdered class="h-4" />개요</h2>
             {#if $currentNote}
                 <ul>
-                    {#each $currentNote.outline as line}
+                    {#each note.outline as line}
                         {#each Object.entries(line) as [level, content]}
                         <li class="text-muted-foreground ms-4">
                             {#each Array(parseInt(level, 10) - 1) as _}<span class="border-s mx-2" />{/each}

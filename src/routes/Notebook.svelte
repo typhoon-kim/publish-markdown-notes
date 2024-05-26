@@ -16,11 +16,8 @@
                 currentNote.set(null);
         } else if ($location.startsWith("/book")) {
             if (params) {
-                if (params.left) leftNote.set(params.left);
-                else leftNote.set(null);
-
-                if (params.right) rightNote.set(params.right);
-                else rightNote.set(null);
+                if (params.left) leftNote.set(params.left); else leftNote.set(null);
+                if (params.right) rightNote.set(params.right); else rightNote.set(null);
             }
         } else {
             $leftNote = null;
@@ -44,6 +41,11 @@
             &gt; {key} : {value}
         {/each}
     {/if}
+</div>
+<div class="hidden absolute bg-yellow-200 z-50">
+    <p>currentNote {$currentNote}</p>
+    <p>leftNote {$leftNote}</p>
+    <p>rightNote {$rightNote}</p>
 </div>
 
 <div class="wrapper">
