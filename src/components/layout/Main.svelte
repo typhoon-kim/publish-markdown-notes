@@ -9,12 +9,12 @@
     {#if !$leftNote && !$rightNote }
         <IndexHome />
     {:else if $leftNote && !$rightNote }
-        <Note noteId={$leftNote}></Note>
+        <Note class={$currentNote == $leftNote ?? "active"} noteId={$leftNote} side="single" />
     {:else if !$leftNote && $rightNote }
-        <Note noteId={$rightNote}></Note>
+        <Note class={$currentNote == $rightNote ?? "active"} noteId={$rightNote} side="single" />
     {:else if $leftNote && $rightNote }
-        <Note class={$currentNote == $leftNote ? "active" : ""} noteId={$leftNote} side="left" />
+        <Note class={$currentNote == $leftNote ?? "active"} noteId={$leftNote} side="left" />
         <Separator orientation="vertical" />
-        <Note class={$currentNote == $rightNote ? "active" : ""} noteId={$rightNote} side="right" />
+        <Note class={$currentNote == $rightNote ?? "active"} noteId={$rightNote} side="right" />
     {/if}
 </main>

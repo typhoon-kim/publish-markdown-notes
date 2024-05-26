@@ -31,7 +31,7 @@
     </section>
 
     <section class="mt-1 place-self-center flex flex-col max-w-full">
-        <img class="logo place-self-center" src="/logo_tmp.jpg" alt="로고" />
+        <img class="logo place-self-center" src="/logo.jpg" alt="로고" />
         <div class="flex place-items-baseline">
             <a class="title text-center" href="/">Typhoon's Log</a>
             <ContactMe class="ms-1" contentClass="text-sm"/>

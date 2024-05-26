@@ -6,17 +6,20 @@
     import * as d3 from "d3";
     import Switch from "$lib/components/ui/switch/switch.svelte";
     import Label from "$lib/components/ui/label/label.svelte";
+    import { mode } from "mode-watcher";
+    import { getRoute } from "$store";
 
     export {graphId as id};
     export let showTags = true;
     export let tagSwitch = false;
-    
+   
     let graph;
     let graphId;
 
+    /** todo 노트검색 수정 필요*/
     function getNoteIdByTitle(title) {
         const noteData = noteList.filter((note) => {
-            return note.name == title + ".md";
+            return note.name == title;
         });
         
         // console.log(title)
@@ -37,7 +40,7 @@
                 id: tag,
                 title: tag,
                 group: "tag",
-                url: `/index?tag=${tag}`
+                url: `/#/index?tag=${tag}`
             })
         });
 
@@ -47,7 +50,7 @@
                 id: note.id,
                 title: note.name,
                 group: "note",
-                url: `${note.route}/${note.name}`
+                url: `/#${getRoute(note.id)}`
             })
 
             // add tag to note links
@@ -63,7 +66,15 @@
         });
 
         // Specify the color scale.
-        const color = d3.scaleOrdinal(d3.schemeCategory10);
+        // const color = d3.scaleOrdinal(d3.schemeCategory10);
+        
+        let themeColor = "rgb(248, 250, 252)";
+        let themeStroke = "rgba(2, 8, 23, 0.87)";
+        if ($mode === "dark") {
+            themeColor = "rgb(2, 8, 23)";
+            themeStroke = "rgba(248, 250, 252, 0.87)";
+        }
+        const color = d3.scaleOrdinal(["tag", "note"], ["#7574C2", themeColor]);
 
         const svg = d3.select(`#${graphId}`)
             .attr("width", width)
@@ -72,29 +83,48 @@
 
         svg.selectAll("*").remove();
 
+        const zoom = d3.zoom()
+            .scaleExtent([0.1, 10])
+            .on("zoom", (event) => {
+                g.attr("transform", event.transform);
+                g.selectAll("text").style("display", event.transform.k > 1.5 ? "block" : "none");
+
+                // Adjust the repulsion strength based on zoom level
+                const newStrength = -30 * (event.transform.k * 1.5); // Example scaling factor
+                simulation.force("charge").strength(newStrength);
+
+                // Adjust link distance based on zoom level
+                const newLinkDistance = 30 * (event.transform.k * 1.5); // Example scaling factor
+                simulation.force("link").distance(newLinkDistance);
+
+                simulation.alpha(1).restart(); // Reheat the simulation to apply changes
+            });
+
+        svg.call(zoom);
+
+        const g = svg.append("g");
+
         const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id((d) => d.id))
-            .force("charge", d3.forceManyBody())
+            .force("link", d3.forceLink(links).id((d) => d.id).distance(30))
+            .force("charge", d3.forceManyBody().strength(-30)) // Initial repulsion strength
             .force("center", d3.forceCenter(width / 2, height / 2))
             .force("x", d3.forceX())
             .force("y", d3.forceY())
 
-        const link = svg.append("g")
-            .attr("stroke", "#999")
+        const link = g.append("g")
+            .attr("stroke", themeStroke)
             .attr("stroke-opacity", 0.6)
             .selectAll("line")
             .data(links)
             .join("line")
             .attr("stroke-width", d => Math.sqrt(d.value));
 
-        const node = svg.append("g")
-            .attr("stroke", "#fff")
-            .attr("stroke-width", 1.5)
-            .selectAll("circle")
+        const node = g.append("g")
+            .attr("stroke", themeStroke)
+            .attr("stroke-width", 1)
+            .selectAll("g")
             .data(nodes)
-            .join("circle")
-            .attr("r", 5)
-            .attr("fill", d => color(d.group))
+            .join("g")
             .call(d3.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended))
             .on("click", (event, d) => {
                 if (d.url) {
@@ -102,13 +132,17 @@
                 }
             });
 
+        node.append("circle")
+            .attr("r", 5)
+            .attr("fill", d => color(d.group));
+
         node.append("text")
             .text((d) => d.title)
-            .attr("x", 6)
-            .attr("y", 3)
-            .style("font", "1rem sans-serif")
-            .style("pointer-events", "none")
-            .style("text-anchor", "middle");
+            .attr("y", 12)
+            .style("font-size", "0.5rem")
+            .style("text-anchor", "middle")
+            .style("display", "none")
+            .attr("class", "text-muted-foreground text-xs font-light");
 
         simulation.on("tick", () => {
             link
@@ -117,8 +151,7 @@
                 .attr("x2", d => d.target.x)
                 .attr("y2", d => d.target.y);
             node
-                .attr("cx", d => d.x)
-                .attr("cy", d => d.y);
+                .attr("transform", d => `translate(${d.x}, ${d.y})`);
         });
 
         // Reheat the simulation when drag starts, and fix the subject position.
