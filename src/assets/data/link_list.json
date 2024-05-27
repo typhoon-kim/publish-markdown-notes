@@ -1,11 +1,5 @@
 [
   {
-    "from": "bb00146b76a29338e3dd4696013bfa37",
-    "type": "obsidian",
-    "alias": "Get started with Obsidian",
-    "url": "Get started with Obsidian"
-  },
-  {
     "from": "5db57818a628d8961ac6d3f5f9463a0c",
     "type": "obsidian",
     "alias": "I have no prior experience",
@@ -22,6 +16,12 @@
     "type": "obsidian",
     "alias": "I have used plain-text based apps",
     "url": "From plain-text note-taking"
+  },
+  {
+    "from": "bb00146b76a29338e3dd4696013bfa37",
+    "type": "obsidian",
+    "alias": "Get started with Obsidian",
+    "url": "Get started with Obsidian"
   },
   {
     "from": "12bc9d202d1a9e9c071a295d533d042e",
@@ -300,6 +300,12 @@
     "url": "Link notes"
   },
   {
+    "from": "4b168779d4c0f6174a3fee3bdbfd3989",
+    "type": "obsidian",
+    "alias": "Create a note",
+    "url": "Create your first note"
+  },
+  {
     "from": "1c2249fa3067f5ed6a68d2e09a45c9f0",
     "type": "obsidian",
     "alias": "Create a vault",
@@ -316,191 +322,5 @@
     "type": "obsidian",
     "alias": "Link notes",
     "url": "Link notes"
-  },
-  {
-    "from": "4b168779d4c0f6174a3fee3bdbfd3989",
-    "type": "obsidian",
-    "alias": "Create a note",
-    "url": "Create your first note"
-  },
-  {
-    "from": "9690a29db1da2162df812169dd607cf3",
-    "type": "obsidian",
-    "alias": "wikilinks",
-    "url": "Internal link"
-  },
-  {
-    "from": "9690a29db1da2162df812169dd607cf3",
-    "type": "obsidian",
-    "alias": "customized",
-    "url": "#Customizations"
-  },
-  {
-    "from": "87cb787a6dcca6f4ef4eb602a6b62b81",
-    "type": "obsidian",
-    "alias": "Embeds",
-    "url": "Embeds"
-  },
-  {
-    "from": "87cb787a6dcca6f4ef4eb602a6b62b81",
-    "type": "obsidian",
-    "alias": "Plugins makes Obsidian special for you",
-    "url": "Plugins makes Obsidian special for you"
-  },
-  {
-    "from": "87cb787a6dcca6f4ef4eb602a6b62b81",
-    "type": "obsidian",
-    "alias": "Plugins make Obsidian special for you",
-    "url": "Plugins make Obsidian special for you"
-  },
-  {
-    "from": "e9054f82c0fabacdfe20cdfd008baf79",
-    "type": "obsidian",
-    "alias": "second option",
-    "url": "Format your notes#^376b9d"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Internal link",
-    "url": "Internal link"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Embeds",
-    "url": "Embeds"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Heading",
-    "url": "Heading"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Emphasis",
-    "url": "Emphasis"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Lists",
-    "url": "Lists"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Images",
-    "url": "Images"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Links",
-    "url": "Links"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Blockquote",
-    "url": "Blockquote"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Inline code",
-    "url": "Inline code"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Code block",
-    "url": "Code block"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Task",
-    "url": "Task"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Table",
-    "url": "Table"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Strikethrough",
-    "url": "Strikethrough"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Highlighting",
-    "url": "Highlighting"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Horizontal divider",
-    "url": "Horizontal divider"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Footnote",
-    "url": "Footnote"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Math",
-    "url": "Math"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Comment",
-    "url": "Comment"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Callout",
-    "url": "Callout"
-  },
-  {
-    "from": "468ebc59e5d021141d6fad11841c1a34",
-    "type": "obsidian",
-    "alias": "Diagram",
-    "url": "Diagram"
-  },
-  {
-    "from": "490be3e79a0a1d2f294bc1851913ad45",
-    "type": "obsidian",
-    "alias": "Embeds",
-    "url": "Embeds"
-  },
-  {
-    "from": "8ddb9451f3210519ecda23fea03b1b09",
-    "type": "obsidian",
-    "alias": "Formatting",
-    "url": "Format your notes\\"
-  },
-  {
-    "from": "8ddb9451f3210519ecda23fea03b1b09",
-    "type": "obsidian",
-    "alias": "Callouts",
-    "url": "Callouts\\"
-  },
-  {
-    "from": "8ddb9451f3210519ecda23fea03b1b09",
-    "type": "obsidian",
-    "alias": "Callouts",
-    "url": "Callout\\"
   }
 ]

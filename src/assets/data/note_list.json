@@ -1,225 +1,175 @@
 [
   {
-    "id": "6c231d9f3624d69460e5f231b932a1e7",
-    "name": "fixture",
+    "id": "5db57818a628d8961ac6d3f5f9463a0c",
+    "name": "Start Here",
     "route": [
       ""
     ],
-    "created": 1715797349469,
-    "updated": 1715797349469,
+    "created": 1715498708342,
+    "updated": 1715498708342,
     "outline": [
       {
-        "2": "GitHub Markdown fixture"
+        "2": "I’m interested in Obsidian"
       },
       {
-        "3": "My fixtures"
+        "2": "Official Help Site"
       },
       {
-        "4": "Left-aligned image"
+        "2": "What is this place?"
+      }
+    ],
+    "tags": [],
+    "links": [
+      {
+        "type": "hyperlink",
+        "alias": "Obsidian documentation",
+        "url": "https://help.obsidian.md/"
       },
       {
-        "4": "Right-aligned image"
+        "type": "hyperlink",
+        "alias": "here",
+        "url": "https://github.com/obsidianmd/obsidian-docs/tree/master/Sandbox"
+      }
+    ],
+    "summary": "Hi, welcome to Obsidian!  I’m interested in Obsidian First of all, tell me a little bit about what&#39;s your experience with note-taking apps like?  [[No prior experience|I have no prior experience]]  [[From standard note-taking|I’ve used note-taking apps like Evernote and OneNote]]  [[From plain-t...",
+    "images": []
+  },
+  {
+    "id": "bb00146b76a29338e3dd4696013bfa37",
+    "name": "Plugins make Obsidian special for you",
+    "route": [
+      ""
+    ],
+    "created": 1715498709936,
+    "updated": 1715498709936,
+    "outline": [
+      {
+        "2": "Modular core plugins"
       },
       {
-        "4": "Alerts"
+        "2": "Wild community plugins"
+      }
+    ],
+    "tags": [],
+    "links": [],
+    "summary": "We started making Obsidian with plugins in mind because everyone seems to take notes differently. Offering a generic set of tools for a note-taker is like offering only one configuration of kitchen for passionate home cooks. There are two types of plugins in Obsidian: core plugins and community plug...",
+    "images": []
+  },
+  {
+    "id": "12bc9d202d1a9e9c071a295d533d042e",
+    "name": "Vault is just a local folder",
+    "route": [
+      ""
+    ],
+    "created": 1715498732352,
+    "updated": 1715498732352,
+    "outline": [],
+    "tags": [],
+    "links": [],
+    "summary": "Different than most note-taking apps out there, an Obsidian vault is not a notebook on our server or a bundle in a special format on your computer. In Obsidian, a vault is a plain folder on your computer. By plain, I mean it&#39;s just like a folder you created and put some files in. You can open it...",
+    "images": []
+  },
+  {
+    "id": "2e0d44011f5352b35e3ab0332352962f",
+    "name": "프로젝트리드미 템플릿",
+    "route": [
+      ""
+    ],
+    "created": 1716797698742,
+    "updated": 1716797538590,
+    "outline": [
+      {
+        "1": "Project Title"
       },
       {
-        "3": "Code snippet"
+        "2": "API Reference"
       },
       {
-        "5": "Table of Contents"
+        "4": "Get all items"
       },
       {
-        "2": "Headers"
+        "4": "Get item"
       },
       {
-        "1": "H1"
+        "4": "add(num1, num2)"
       },
       {
-        "2": "H2"
+        "2": "Appendix"
       },
       {
-        "3": "H3"
+        "2": "Contributing"
       },
       {
-        "4": "H4"
+        "2": "Demo"
       },
       {
-        "5": "H5"
+        "2": "Documentation"
       },
       {
-        "6": "H6"
+        "2": "Color Reference"
       },
       {
-        "1": "Alt-H1"
+        "2": "Acknowledgements"
       },
       {
-        "2": "Alt-H2"
+        "2": "Authors"
       },
       {
-        "2": "Emphasis"
+        "2": "Badges"
       },
       {
-        "2": "Lists"
-      },
-      {
-        "2": "Inline HTML"
-      },
-      {
-        "2": "Links"
-      },
-      {
-        "2": "Images"
-      },
-      {
-        "2": "Code and Syntax Highlighting"
-      },
-      {
-        "2": "Tables"
-      },
-      {
-        "2": "Blockquotes"
-      },
-      {
-        "2": "Inline HTML"
-      },
-      {
-        "2": "Horizontal Rule"
-      },
-      {
-        "2": "Line Breaks"
-      },
-      {
-        "2": "Youtube videos"
-      },
-      {
-        "2": "Task List"
-      },
-      {
-        "1": "A heading"
-      },
-      {
-        "2": "Another Heading"
-      },
-      {
-        "2": "Unordered"
-      },
-      {
-        "2": "Ordered"
-      },
-      {
-        "2": "Nested"
-      },
-      {
-        "1": "Markdown: Syntax"
+        "2": "Deployment"
       }
     ],
     "tags": [
-      "bugID",
-      "1",
-      "blockquote",
-      "list"
+      "0a192f",
+      "f8f8f8",
+      "00b48a",
+      "00d1a0"
     ],
     "links": [
       {
         "type": "hyperlink",
-        "alias": "John Gruber's original spec",
-        "url": "http://daringfireball.net/projects/markdown/"
+        "alias": "Documentation",
+        "url": "https://linktodocumentation"
       },
       {
         "type": "hyperlink",
-        "alias": "Github-flavored Markdown info page",
-        "url": "http://github.github.com/github-flavored-markdown/"
+        "alias": "Awesome Readme Templates",
+        "url": "https://awesomeopensource.com/project/elangosundar/awesome-README-templates"
       },
       {
         "type": "hyperlink",
-        "alias": "Cheatsheet specific to Markdown Here",
-        "url": "./Markdown-Here-Cheatsheet"
+        "alias": "Awesome README",
+        "url": "https://github.com/matiassingers/awesome-readme"
       },
       {
         "type": "hyperlink",
-        "alias": "live demo page",
-        "url": "http://www.markdown-here.com/livedemo.html"
+        "alias": "How to write a Good readme",
+        "url": "https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project"
       },
       {
         "type": "hyperlink",
-        "alias": "I'm an inline-style link",
-        "url": "https://www.google.com"
+        "alias": "@octokatherine",
+        "url": "https://www.github.com/octokatherine"
       },
       {
         "type": "hyperlink",
-        "alias": "I'm an inline-style link with title",
-        "url": "https://www.google.com"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "I'm a relative reference to a repository file",
-        "url": "../blob/master/LICENSE"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "highlight.js demo page",
-        "url": "http://softwaremaniacs.org/media/soft/highlight/test.html"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "link",
-        "url": "//hello"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "an example",
-        "url": "http://example.com/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "This link",
-        "url": "http://example.net/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "About",
-        "url": "/about/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Google",
-        "url": "http://google.com/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Yahoo",
-        "url": "http://search.yahoo.com/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "MSN",
-        "url": "http://search.msn.com/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Yahoo Search",
-        "url": "http://search.yahoo.com/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "MSN Search",
-        "url": "http://search.msn.com/"
+        "alias": "shields.io",
+        "url": "https://shields.io/"
       }
     ],
-    "summary": "GitHub Markdown fixture My fixtures Left-aligned image   Right-aligned image   Alerts  [!NOTE] Highlights information that users should take into account, even when skimming.   [!IMPORTANT] Crucial information necessary for users to succeed.   [!WARNING] Critical content demanding immediate user att...",
-    "images": [
-      "http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
-    ]
+    "summary": "Project Title A brief description of what this project does and who it&#39;s for API Reference Get all items   GET /api/items     Parameter Type Description    api_key string Required. Your API key   Get item   GET /api/items/${id}     Parameter Type Description    id string Required. Id of item to ...",
+    "images": []
   },
   {
-    "id": "bb0e950ee59bdeab6fb1af7035298f6c",
-    "name": "note1",
+    "id": "2a1cccc249846b956d7c88636fa1cb18",
+    "name": "이력서템플릿 리드미",
     "route": [
       ""
     ],
-    "created": 1715777252586,
-    "updated": 1715777252586,
+    "created": 1716797704042,
+    "updated": 1716797564206,
     "outline": [
       {
         "1": "📝 very simple portfolio"
@@ -347,169 +297,6 @@
     ]
   },
   {
-    "id": "449be1f50ce16ad1ccf736cef4988be3",
-    "name": "note2",
-    "route": [
-      ""
-    ],
-    "created": 1714842566419,
-    "updated": 1714767589940,
-    "outline": [
-      {
-        "1": "Project Title"
-      },
-      {
-        "2": "API Reference"
-      },
-      {
-        "4": "Get all items"
-      },
-      {
-        "4": "Get item"
-      },
-      {
-        "4": "add(num1, num2)"
-      },
-      {
-        "2": "Appendix"
-      },
-      {
-        "2": "Contributing"
-      },
-      {
-        "2": "Demo"
-      },
-      {
-        "2": "Documentation"
-      },
-      {
-        "2": "Color Reference"
-      },
-      {
-        "2": "Acknowledgements"
-      },
-      {
-        "2": "Authors"
-      },
-      {
-        "2": "Badges"
-      },
-      {
-        "2": "Deployment"
-      }
-    ],
-    "tags": [
-      "0a192f",
-      "f8f8f8",
-      "00b48a",
-      "00d1a0"
-    ],
-    "links": [
-      {
-        "type": "hyperlink",
-        "alias": "Documentation",
-        "url": "https://linktodocumentation"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Awesome Readme Templates",
-        "url": "https://awesomeopensource.com/project/elangosundar/awesome-README-templates"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Awesome README",
-        "url": "https://github.com/matiassingers/awesome-readme"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "How to write a Good readme",
-        "url": "https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "@octokatherine",
-        "url": "https://www.github.com/octokatherine"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "shields.io",
-        "url": "https://shields.io/"
-      }
-    ],
-    "summary": "Project Title A brief description of what this project does and who it&#39;s for API Reference Get all items   GET /api/items     Parameter Type Description    api_key string Required. Your API key   Get item   GET /api/items/${id}     Parameter Type Description    id string Required. Id of item to ...",
-    "images": []
-  },
-  {
-    "id": "bb00146b76a29338e3dd4696013bfa37",
-    "name": "Plugins make Obsidian special for you",
-    "route": [
-      ""
-    ],
-    "created": 1715498709936,
-    "updated": 1715498709936,
-    "outline": [
-      {
-        "2": "Modular core plugins"
-      },
-      {
-        "2": "Wild community plugins"
-      }
-    ],
-    "tags": [],
-    "links": [],
-    "summary": "We started making Obsidian with plugins in mind because everyone seems to take notes differently. Offering a generic set of tools for a note-taker is like offering only one configuration of kitchen for passionate home cooks. There are two types of plugins in Obsidian: core plugins and community plug...",
-    "images": []
-  },
-  {
-    "id": "5db57818a628d8961ac6d3f5f9463a0c",
-    "name": "Start Here",
-    "route": [
-      ""
-    ],
-    "created": 1715498708342,
-    "updated": 1715498708342,
-    "outline": [
-      {
-        "2": "I’m interested in Obsidian"
-      },
-      {
-        "2": "Official Help Site"
-      },
-      {
-        "2": "What is this place?"
-      }
-    ],
-    "tags": [],
-    "links": [
-      {
-        "type": "hyperlink",
-        "alias": "Obsidian documentation",
-        "url": "https://help.obsidian.md/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "here",
-        "url": "https://github.com/obsidianmd/obsidian-docs/tree/master/Sandbox"
-      }
-    ],
-    "summary": "Hi, welcome to Obsidian!  I’m interested in Obsidian First of all, tell me a little bit about what&#39;s your experience with note-taking apps like?  [[No prior experience|I have no prior experience]]  [[From standard note-taking|I’ve used note-taking apps like Evernote and OneNote]]  [[From plain-t...",
-    "images": []
-  },
-  {
-    "id": "12bc9d202d1a9e9c071a295d533d042e",
-    "name": "Vault is just a local folder",
-    "route": [
-      ""
-    ],
-    "created": 1715498732352,
-    "updated": 1715498732352,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Different than most note-taking apps out there, an Obsidian vault is not a notebook on our server or a bundle in a special format on your computer. In Obsidian, a vault is a plain folder on your computer. By plain, I mean it&#39;s just like a folder you created and put some files in. You can open it...",
-    "images": []
-  },
-  {
     "id": "4219989946c8a66d73011c89bc0a0a2f",
     "name": "From plain-text note-taking",
     "route": [
@@ -552,20 +339,6 @@
     "images": []
   },
   {
-    "id": "1ae31d7c4afd033927a592d23e3e8db2",
-    "name": "Blockquote",
-    "route": [
-      "Formatting"
-    ],
-    "created": 1715498764000,
-    "updated": 1715498764000,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "&gt; Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.  \\- Doug Engelbart, 1961   Human beings face ever more complex and urgent problems, and their effectiv...",
-    "images": []
-  },
-  {
     "id": "e3c22d65d105e18076dd88ccbc9d504f",
     "name": "Callout",
     "route": [
@@ -590,6 +363,34 @@
     "tags": [],
     "links": [],
     "summary": "As of v0.14.0, Obsidian supports callout blocks, sometimes called &quot;admonitions&quot;. Callout blocks are written as a blockquote, inspired by the &quot;alert&quot; syntax from Microsoft Docs. Callouts are also be supported natively on Obsidian Publish.  [!NOTE] For compatibility reasons, if you...",
+    "images": []
+  },
+  {
+    "id": "1ae31d7c4afd033927a592d23e3e8db2",
+    "name": "Blockquote",
+    "route": [
+      "Formatting"
+    ],
+    "created": 1715498764000,
+    "updated": 1715498764000,
+    "outline": [],
+    "tags": [],
+    "links": [],
+    "summary": "&gt; Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.  \\- Doug Engelbart, 1961   Human beings face ever more complex and urgent problems, and their effectiv...",
+    "images": []
+  },
+  {
+    "id": "39317355e18dff00c7417d6c4f81bf7b",
+    "name": "Comment",
+    "route": [
+      "Formatting"
+    ],
+    "created": 1715498814790,
+    "updated": 1715498814790,
+    "outline": [],
+    "tags": [],
+    "links": [],
+    "summary": "Use %% to enclose comments, which will be parsed as Markdown, but will not show up in the preview. Here is some inline comments: %%You can&#39;t see this text%% (Can&#39;t see it)  Here is a block comment: %% It can span multiple lines %%  Here is some inline comments: %%You can&#39;t see this text%...",
     "images": []
   },
   {
@@ -638,17 +439,17 @@
     "images": []
   },
   {
-    "id": "39317355e18dff00c7417d6c4f81bf7b",
-    "name": "Comment",
+    "id": "82e01624c6ebd08efc824abdf4417385",
+    "name": "Emphasis",
     "route": [
       "Formatting"
     ],
-    "created": 1715498814790,
-    "updated": 1715498814790,
+    "created": 1715498858615,
+    "updated": 1715498858615,
     "outline": [],
     "tags": [],
     "links": [],
-    "summary": "Use %% to enclose comments, which will be parsed as Markdown, but will not show up in the preview. Here is some inline comments: %%You can&#39;t see this text%% (Can&#39;t see it)  Here is a block comment: %% It can span multiple lines %%  Here is some inline comments: %%You can&#39;t see this text%...",
+    "summary": "*This text will be italic* _This will also be italic_  This text will be italic This will also be italic **This text will be bold** __This will also be bold__  This text will be bold This will also be bold _You **can** combine them_  You can combine them ",
     "images": []
   },
   {
@@ -666,20 +467,6 @@
     "images": []
   },
   {
-    "id": "82e01624c6ebd08efc824abdf4417385",
-    "name": "Emphasis",
-    "route": [
-      "Formatting"
-    ],
-    "created": 1715498858615,
-    "updated": 1715498858615,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "*This text will be italic* _This will also be italic_  This text will be italic This will also be italic **This text will be bold** __This will also be bold__  This text will be bold This will also be bold _You **can** combine them_  You can combine them ",
-    "images": []
-  },
-  {
     "id": "8fcc6746a4f2b7924c22c5cc1a29441d",
     "name": "Footnote",
     "route": [
@@ -694,17 +481,17 @@
     "images": []
   },
   {
-    "id": "51d1cb000f0d9c067a884b7034317741",
-    "name": "Format your notes",
+    "id": "f7643d62ce7025c9930ef1b25559a69d",
+    "name": "Highlighting",
     "route": [
       "Formatting"
     ],
-    "created": 1715498870513,
-    "updated": 1715498870513,
+    "created": 1715498872825,
+    "updated": 1715498872825,
     "outline": [],
     "tags": [],
     "links": [],
-    "summary": "Obsidian is a Markdown-based note-taking and knowledge base app.  We currently support the formats below: ![[Internal link]] ![[Embeds]] ![[Heading]] ![[Emphasis]] ![[Lists]] ![[Images]] ![[Links]] ![[Blockquote]] ![[Inline code]] ![[Code block]] ![[Task]] ![[Table]] ![[Strikethrough]] ![[Highlighti...",
+    "summary": "Use two equal signs to ==highlight text==.  Use two equal signs to ==highlight text==. ",
     "images": []
   },
   {
@@ -741,6 +528,34 @@
     "images": []
   },
   {
+    "id": "51d1cb000f0d9c067a884b7034317741",
+    "name": "Format your notes",
+    "route": [
+      "Formatting"
+    ],
+    "created": 1715498870513,
+    "updated": 1715498870513,
+    "outline": [],
+    "tags": [],
+    "links": [],
+    "summary": "Obsidian is a Markdown-based note-taking and knowledge base app.  We currently support the formats below: ![[Internal link]] ![[Embeds]] ![[Heading]] ![[Emphasis]] ![[Lists]] ![[Images]] ![[Links]] ![[Blockquote]] ![[Inline code]] ![[Code block]] ![[Task]] ![[Table]] ![[Strikethrough]] ![[Highlighti...",
+    "images": []
+  },
+  {
+    "id": "5268ad8285645dc89f43016a8ce57b67",
+    "name": "Horizontal divider",
+    "route": [
+      "Formatting"
+    ],
+    "created": 1715498874310,
+    "updated": 1715498874310,
+    "outline": [],
+    "tags": [],
+    "links": [],
+    "summary": "Use three stars ***, minuses ---, or underscores ___ in a new line to produce an horizontal bar.   ",
+    "images": []
+  },
+  {
     "id": "8f5644a36acd4cb62f453017d34e6c56",
     "name": "Images",
     "route": [
@@ -759,34 +574,6 @@
     "images": []
   },
   {
-    "id": "f7643d62ce7025c9930ef1b25559a69d",
-    "name": "Highlighting",
-    "route": [
-      "Formatting"
-    ],
-    "created": 1715498872825,
-    "updated": 1715498872825,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Use two equal signs to ==highlight text==.  Use two equal signs to ==highlight text==. ",
-    "images": []
-  },
-  {
-    "id": "5268ad8285645dc89f43016a8ce57b67",
-    "name": "Horizontal divider",
-    "route": [
-      "Formatting"
-    ],
-    "created": 1715498874310,
-    "updated": 1715498874310,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Use three stars ***, minuses ---, or underscores ___ in a new line to produce an horizontal bar.   ",
-    "images": []
-  },
-  {
     "id": "5c095e95f8ee1c9ad01974bd95e4221f",
     "name": "Inline code",
     "route": [
@@ -798,6 +585,20 @@
     "tags": [],
     "links": [],
     "summary": "Text inside `backticks` on a line will be formatted like code.  Text inside backticks on a line will be formatted like code.  ",
+    "images": []
+  },
+  {
+    "id": "316d97b3d7b6fa4361ff84d5c61d6b59",
+    "name": "Lists",
+    "route": [
+      "Formatting"
+    ],
+    "created": 1715498700288,
+    "updated": 1715498700288,
+    "outline": [],
+    "tags": [],
+    "links": [],
+    "summary": "- Item 1 - Item 2   - Item 2a   - Item 2b  1. Item 1 1. Item 2 1. Item 3    1. Item 3a    1. Item 3b   Item 1 Item 2 Item 2a Item 2b     Item 1 Item 2 Item 3 Item 3a Item 3b    ",
     "images": []
   },
   {
@@ -875,64 +676,6 @@
     "images": []
   },
   {
-    "id": "316d97b3d7b6fa4361ff84d5c61d6b59",
-    "name": "Lists",
-    "route": [
-      "Formatting"
-    ],
-    "created": 1715498700288,
-    "updated": 1715498700288,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "- Item 1 - Item 2   - Item 2a   - Item 2b  1. Item 1 1. Item 2 1. Item 3    1. Item 3a    1. Item 3b   Item 1 Item 2 Item 2a Item 2b     Item 1 Item 2 Item 3 Item 3a Item 3b    ",
-    "images": []
-  },
-  {
-    "id": "5e126c52cb82886262bd70aa2e2d8d57",
-    "name": "Strikethrough",
-    "route": [
-      "Formatting"
-    ],
-    "created": 1715498700290,
-    "updated": 1715498700290,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Any word wrapped with two tildes (like ~~this~~) will appear crossed out.  Any word wrapped with two tildes (like this) will appear crossed out. ",
-    "images": []
-  },
-  {
-    "id": "ea44d1a547ed598018951bb869ccd1f5",
-    "name": "Table",
-    "route": [
-      "Formatting"
-    ],
-    "created": 1715498700291,
-    "updated": 1715498700291,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |: First Header | Second Header ------------ | ------------ Content from cell 1 | Content from cell 2 Content in the first column | Content in the sec...",
-    "images": []
-  },
-  {
-    "id": "a11e2ed3245602d83bf6b9c4154d80d1",
-    "name": "Task",
-    "route": [
-      "Formatting"
-    ],
-    "created": 1715498700292,
-    "updated": 1715498700292,
-    "outline": [],
-    "tags": [
-      "tags"
-    ],
-    "links": [],
-    "summary": "- [x] #tags, [links](), **formatting** supported - [x] list syntax required (any unordered or ordered list supported) - [x] this is a complete item - [?] this is also a complete item (works with every character) - [ ] this is an incomplete item - [ ] tasks can be clicked in Preview to be checked off...",
-    "images": []
-  },
-  {
     "id": "56d56c3c1ee9e525aeb2366f57f6dca6",
     "name": "Math",
     "route": [
@@ -955,6 +698,50 @@
       }
     ],
     "summary": "$$\\begin{vmatrix}a &amp; b\\\\ c &amp; d \\end{vmatrix}=ad-bc$$  $$\\begin{vmatrix}a &amp; b\\ c &amp; d \\end{vmatrix}=ad-bc$$ You can also do inline math like $e^{2i\\pi} = 1$ . Obsidian uses Mathjax. You can check which packages are supported in Mathjax here. ",
+    "images": []
+  },
+  {
+    "id": "6513d80249b1863c83a4218d9c0f2fd5",
+    "name": "Task",
+    "route": [
+      "Formatting"
+    ],
+    "created": 1716065910726,
+    "updated": 1716065910726,
+    "outline": [],
+    "tags": [
+      "tags"
+    ],
+    "links": [],
+    "summary": "- [x] #tags, [links](), **formatting** supported - [x] list syntax required (any unordered or ordered list supported) - [x] this is a complete item - [?] this is also a complete item (works with every character) - [ ] this is an incomplete item - [ ] tasks can be clicked in Preview to be checked off...",
+    "images": []
+  },
+  {
+    "id": "ea44d1a547ed598018951bb869ccd1f5",
+    "name": "Table",
+    "route": [
+      "Formatting"
+    ],
+    "created": 1715498700291,
+    "updated": 1715498700291,
+    "outline": [],
+    "tags": [],
+    "links": [],
+    "summary": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |: First Header | Second Header ------------ | ------------ Content from cell 1 | Content from cell 2 Content in the first column | Content in the sec...",
+    "images": []
+  },
+  {
+    "id": "f4cc0940286836b84e9e95863c27ff34",
+    "name": "Strikethrough",
+    "route": [
+      "Formatting"
+    ],
+    "created": 1716065912076,
+    "updated": 1716065912076,
+    "outline": [],
+    "tags": [],
+    "links": [],
+    "summary": "Any word wrapped with two tildes (like ~~this~~) will appear crossed out.  Any word wrapped with two tildes (like this) will appear crossed out. ",
     "images": []
   },
   {
@@ -1002,20 +789,6 @@
     "images": []
   },
   {
-    "id": "1c2249fa3067f5ed6a68d2e09a45c9f0",
-    "name": "Get started with Obsidian",
-    "route": [
-      "Guides"
-    ],
-    "created": 1715498758746,
-    "updated": 1715498758746,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "You may have heard that Obsidian is very complicated to set up. We don’t think that’s true—the ideal setup would be complicated, but that’s true for all tools. It just takes lots of trial and error to get something that works well for you. Instead of complicated, we would call that a labor of love. ...",
-    "images": []
-  },
-  {
     "id": "4b168779d4c0f6174a3fee3bdbfd3989",
     "name": "Link notes",
     "route": [
@@ -1043,430 +816,17 @@
     "images": []
   },
   {
-    "id": "9690a29db1da2162df812169dd607cf3",
-    "name": "Callout",
+    "id": "1c2249fa3067f5ed6a68d2e09a45c9f0",
+    "name": "Get started with Obsidian",
     "route": [
-      "Guides",
-      "Form"
+      "Guides"
     ],
-    "created": 1715498802800,
-    "updated": 1715498802800,
-    "outline": [
-      {
-        "3": "Types"
-      },
-      {
-        "3": "Title and body"
-      },
-      {
-        "3": "Folding"
-      },
-      {
-        "3": "Customizations"
-      }
-    ],
-    "tags": [],
-    "links": [],
-    "summary": "As of v0.14.0, Obsidian supports callout blocks, sometimes called &quot;admonitions&quot;. Callout blocks are written as a blockquote, inspired by the &quot;alert&quot; syntax from Microsoft Docs. Callouts are also be supported natively on Obsidian Publish.  [!NOTE] For compatibility reasons, if you...",
-    "images": []
-  },
-  {
-    "id": "c1d033db0e4591936804aad8da104f6f",
-    "name": "Comment",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498814790,
-    "updated": 1715498814790,
+    "created": 1715498758746,
+    "updated": 1715498758746,
     "outline": [],
     "tags": [],
     "links": [],
-    "summary": "Use %% to enclose comments, which will be parsed as Markdown, but will not show up in the preview. Here is some inline comments: %%You can&#39;t see this text%% (Can&#39;t see it)  Here is a block comment: %% It can span multiple lines %%  Here is some inline comments: %%You can&#39;t see this text%...",
-    "images": []
-  },
-  {
-    "id": "d929f0d2316c35817403bcff76e9be96",
-    "name": "Blockquote",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498764000,
-    "updated": 1715498764000,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "&gt; Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.  \\- Doug Engelbart, 1961   Human beings face ever more complex and urgent problems, and their effectiv...",
-    "images": []
-  },
-  {
-    "id": "87cb787a6dcca6f4ef4eb602a6b62b81",
-    "name": "Embeds",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498848017,
-    "updated": 1715498848017,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Embed another file (read more about [[Embeds]]). Here&#39;s an embedded section: ![[Plugins makes Obsidian special for you]]  ![[Plugins make Obsidian special for you]] ",
-    "images": []
-  },
-  {
-    "id": "1c5e171d073235a41fe6e063ce135f01",
-    "name": "Code block",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498805501,
-    "updated": 1715498805501,
-    "outline": [],
-    "tags": [],
-    "links": [
-      {
-        "type": "hyperlink",
-        "alias": "at their site",
-        "url": "https://prismjs.com/#supported-languages"
-      }
-    ],
-    "summary": "Syntax highlight is supported with the language specified after the first set of backticks. We use prismjs for syntax highlighting, a list of supported languages can be found at their site ```js function fancyAlert(arg) {   if(arg) {     $.facebox({div:'#foo'})   } } ```  function fancyAlert(arg) { ...",
-    "images": []
-  },
-  {
-    "id": "e9054f82c0fabacdfe20cdfd008baf79",
-    "name": "Diagram",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498831745,
-    "updated": 1715498831745,
-    "outline": [],
-    "tags": [],
-    "links": [
-      {
-        "type": "hyperlink",
-        "alias": "Mermaid",
-        "url": "https://mermaid-js.github.io/"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "a helpful live editor",
-        "url": "https://mermaid-js.github.io/mermaid-live-editor"
-      }
-    ],
-    "summary": "Obsidian uses Mermaid to render diagrams and charts. Mermaid also provides a helpful live editor. ```mermaid sequenceDiagram     Alice->>+John: Hello John, how are you?     Alice->>+John: John, can you hear me?     John-->>-Alice: Hi Alice, I can hear you!     John-->>-Alice: I feel great! ```  sequ...",
-    "images": []
-  },
-  {
-    "id": "829d0165bcaae73561b275859e6ef0c5",
-    "name": "Emphasis",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498858615,
-    "updated": 1715498858615,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "*This text will be italic* _This will also be italic_  This text will be italic This will also be italic **This text will be bold** __This will also be bold__  This text will be bold This will also be bold _You **can** combine them_  You can combine them ",
-    "images": []
-  },
-  {
-    "id": "5c42164504488f666795016f2a817f87",
-    "name": "Footnote",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498868367,
-    "updated": 1715498868367,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Here&#39;s a simple footnote,[^1] and here&#39;s a longer one.[^bignote]  [^1]: meaningful!  [^bignote]: Here&#39;s one with multiple paragraphs and code.      Indent paragraphs to include them in the footnote.      `{ my code }`      Add as many paragraphs as you like.  Here&#39;s a simple footnote...",
-    "images": []
-  },
-  {
-    "id": "3affc4df5f6eaaa24c6c61df0329859a",
-    "name": "Highlighting",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498872825,
-    "updated": 1715498872825,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Use two equal signs to ==highlight text==.  Use two equal signs to ==highlight text==. ",
-    "images": []
-  },
-  {
-    "id": "468ebc59e5d021141d6fad11841c1a34",
-    "name": "Format your notes",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498870513,
-    "updated": 1715498870513,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Obsidian is a Markdown-based note-taking and knowledge base app.  We currently support the formats below: ![[Internal link]] ![[Embeds]] ![[Heading]] ![[Emphasis]] ![[Lists]] ![[Images]] ![[Links]] ![[Blockquote]] ![[Inline code]] ![[Code block]] ![[Task]] ![[Table]] ![[Strikethrough]] ![[Highlighti...",
-    "images": []
-  },
-  {
-    "id": "59c1631c75b50c48e168eb3cf95dc27d",
-    "name": "Heading",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498871943,
-    "updated": 1715498871943,
-    "outline": [
-      {
-        "1": "This is a heading 1"
-      },
-      {
-        "2": "This is a heading 2"
-      },
-      {
-        "3": "This is a heading 3"
-      },
-      {
-        "4": "This is a heading 4"
-      },
-      {
-        "5": "This is a heading 5"
-      },
-      {
-        "6": "This is a heading 6"
-      }
-    ],
-    "tags": [],
-    "links": [],
-    "summary": "# This is a heading 1 ## This is a heading 2 ### This is a heading 3  #### This is a heading 4 ##### This is a heading 5 ###### This is a heading 6  This is a heading 1 This is a heading 2 This is a heading 3 This is a heading 4 This is a heading 5 This is a heading 6 ",
-    "images": []
-  },
-  {
-    "id": "7e9d60fe7b83362c7da6033b959e9470",
-    "name": "Horizontal divider",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498874310,
-    "updated": 1715498874310,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Use three stars ***, minuses ---, or underscores ___ in a new line to produce an horizontal bar.   ",
-    "images": []
-  },
-  {
-    "id": "dd8c00571905ca2c9ce78a3570f81b7f",
-    "name": "Images",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498877946,
-    "updated": 1715498877946,
-    "outline": [
-      {
-        "4": "Resizing images"
-      }
-    ],
-    "tags": [],
-    "links": [],
-    "summary": "![Obsidian](https://obsidian.md/images/banner.png)   Resizing images Example of this above image resized to 200 pixels wide: ![Obsidian|200](https://obsidian.md/images/banner.png)   ",
-    "images": []
-  },
-  {
-    "id": "490be3e79a0a1d2f294bc1851913ad45",
-    "name": "Internal link",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498886851,
-    "updated": 1715498886851,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Link to a page: [[Embeds]].  Link to a page: [[Embeds]]. ",
-    "images": []
-  },
-  {
-    "id": "7476f9c2b39e97133ca78950e3eb75a1",
-    "name": "Inline code",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498879555,
-    "updated": 1715498879555,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Text inside `backticks` on a line will be formatted like code.  Text inside backticks on a line will be formatted like code.  ",
-    "images": []
-  },
-  {
-    "id": "ad7ad93c026e8b444d488fca00351450",
-    "name": "Links",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498893035,
-    "updated": 1715498893035,
-    "outline": [
-      {
-        "4": "External links"
-      },
-      {
-        "4": "Obsidian URI links"
-      },
-      {
-        "4": "Escaping"
-      }
-    ],
-    "tags": [],
-    "links": [
-      {
-        "type": "hyperlink",
-        "alias": "Obsidian",
-        "url": "http://obsidian.md"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Link to note",
-        "url": "obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Link to note",
-        "url": "obsidian://open?vault=MainVault&file=MyNote.md"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Format your notes",
-        "url": "Format%20your%20notes"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Format your notes",
-        "url": "Format%20your%20notes.md"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Format your notes",
-        "url": "<Format your notes>"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "Format your notes",
-        "url": "Format%20your%20notes.md your notes>"
-      }
-    ],
-    "summary": "External links Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image. http://obsidian.md - automatic! [Obsidian](http://obsidian.md)  http://obsidian.md - automatic! Obsidian Obsidian URI links Obsidian URI links can be used to open not...",
-    "images": []
-  },
-  {
-    "id": "8ddb9451f3210519ecda23fea03b1b09",
-    "name": "Table",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498700291,
-    "updated": 1715498700291,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |: First Header | Second Header ------------ | ------------ Content from cell 1 | Content from cell 2 Content in the first column | Content in the sec...",
-    "images": []
-  },
-  {
-    "id": "7f85e1a9637cf0ac7b4c162740cfb9ba",
-    "name": "Lists",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498700288,
-    "updated": 1715498700288,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "- Item 1 - Item 2   - Item 2a   - Item 2b  1. Item 1 1. Item 2 1. Item 3    1. Item 3a    1. Item 3b   Item 1 Item 2 Item 2a Item 2b     Item 1 Item 2 Item 3 Item 3a Item 3b    ",
-    "images": []
-  },
-  {
-    "id": "0e3db15e0af3f2b939197bac6a564a42",
-    "name": "Math",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498700289,
-    "updated": 1715498700289,
-    "outline": [],
-    "tags": [],
-    "links": [
-      {
-        "type": "hyperlink",
-        "alias": "Mathjax",
-        "url": "http://docs.mathjax.org/en/latest/basic/mathjax.html"
-      },
-      {
-        "type": "hyperlink",
-        "alias": "here",
-        "url": "http://docs.mathjax.org/en/latest/input/tex/extensions/index.html"
-      }
-    ],
-    "summary": "$$\\begin{vmatrix}a &amp; b\\\\ c &amp; d \\end{vmatrix}=ad-bc$$  $$\\begin{vmatrix}a &amp; b\\ c &amp; d \\end{vmatrix}=ad-bc$$ You can also do inline math like $e^{2i\\pi} = 1$ . Obsidian uses Mathjax. You can check which packages are supported in Mathjax here. ",
-    "images": []
-  },
-  {
-    "id": "2bf227f4cf12887bd9a5d54502a5d6da",
-    "name": "Strikethrough",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498700290,
-    "updated": 1715498700290,
-    "outline": [],
-    "tags": [],
-    "links": [],
-    "summary": "Any word wrapped with two tildes (like ~~this~~) will appear crossed out.  Any word wrapped with two tildes (like this) will appear crossed out. ",
-    "images": []
-  },
-  {
-    "id": "ac4f26f057df568a6c1c0f355e69040b",
-    "name": "Task",
-    "route": [
-      "Guides",
-      "Form"
-    ],
-    "created": 1715498700292,
-    "updated": 1715498700292,
-    "outline": [],
-    "tags": [
-      "tags"
-    ],
-    "links": [],
-    "summary": "- [x] #tags, [links](), **formatting** supported - [x] list syntax required (any unordered or ordered list supported) - [x] this is a complete item - [?] this is also a complete item (works with every character) - [ ] this is an incomplete item - [ ] tasks can be clicked in Preview to be checked off...",
+    "summary": "You may have heard that Obsidian is very complicated to set up. We don’t think that’s true—the ideal setup would be complicated, but that’s true for all tools. It just takes lots of trial and error to get something that works well for you. Instead of complicated, we would call that a labor of love. ...",
     "images": []
   }
 ]
