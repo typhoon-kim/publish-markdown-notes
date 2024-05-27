@@ -11,16 +11,8 @@
     export let tagSwitch = false;
 
     let graph;
-
-    let themeStroke = "rgba(2, 8, 23, 0.87)";
-    if ($mode === "dark") {
-        themeStroke = "rgba(248, 250, 252, 0.87)";
-    }
-
-    const color = d3.scaleOrdinal(["tag", "note"], ["#7574C2", "currentColor"]);
-
     let zoomLevel = 1;
-
+    
     function drawGraph(width, height) {
         
         /* 1. 데이터 세팅 */
@@ -60,6 +52,13 @@
             });
 
         svg.call(zoom);
+
+        let themeStroke = "rgba(2, 8, 23, 0.87)";
+        if ($mode === "dark") {
+            themeStroke = "rgba(248, 250, 252, 0.87)";
+        }
+
+        const color = d3.scaleOrdinal(["tag", "note"], ["#7574C2", "currentColor"]);
 
         const g = svg.append("g");
 
