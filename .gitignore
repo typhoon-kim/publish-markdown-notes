@@ -25,3 +25,4 @@ dist-ssr
 /public/publish
 /public/publish/*
 gen_meta_data.js
+gen_graph_data.js

@@ -1,81 +1,39 @@
 <script>
     import { onMount, afterUpdate } from "svelte";
-    import tagList from "../assets/data/tag_list.json";
-    import noteList from "../assets/data/note_list.json";
-    import linkList from "../assets/data/link_list.json";
     import * as d3 from "d3";
     import Switch from "$lib/components/ui/switch/switch.svelte";
     import Label from "$lib/components/ui/label/label.svelte";
     import { mode } from "mode-watcher";
-    import { getRoute } from "$store";
-
+    let graphId;
     export {graphId as id};
+    export let data;
     export let showTags = true;
     export let tagSwitch = false;
-   
+
     let graph;
-    let graphId;
 
-    /** todo 노트검색 수정 필요*/
-    function getNoteIdByTitle(title) {
-        const noteData = noteList.filter((note) => {
-            return note.name == title;
-        });
-        
-        // console.log(title)
-        // console.log(noteData);
-
-        if (noteData.length == 0) return null;
-        else return noteData[0].id;
+    let themeStroke = "rgba(2, 8, 23, 0.87)";
+    if ($mode === "dark") {
+        themeStroke = "rgba(248, 250, 252, 0.87)";
     }
 
+    const color = d3.scaleOrdinal(["tag", "note"], ["#7574C2", "currentColor"]);
+
+    let zoomLevel = 1;
+
     function drawGraph(width, height) {
-        const nodes = [];
-        const links = [];
-
-        // add tag nodes
-        if (showTags)
-        tagList.forEach(tag => {
-            nodes.push({
-                id: tag,
-                title: tag,
-                group: "tag",
-                url: `/#/index?tag=${tag}`
-            })
-        });
-
-        // add note nodes
-        noteList.forEach(note => {
-            nodes.push({
-                id: note.id,
-                title: note.name,
-                group: "note",
-                url: `/#${getRoute(note.id)}`
-            })
-
-            // add tag to note links
-            if (showTags)
-            note.tags.forEach(tag => {
-                links.push({ source: tag, target: note.id });
-            })
-        });
-
-        linkList.forEach(link => {
-            const targetNoteId = getNoteIdByTitle(link.url);
-            if (targetNoteId) links.push({ source: link.from, target: targetNoteId});
-        });
-
-        // Specify the color scale.
-        // const color = d3.scaleOrdinal(d3.schemeCategory10);
         
-        let themeColor = "rgb(248, 250, 252)";
-        let themeStroke = "rgba(2, 8, 23, 0.87)";
-        if ($mode === "dark") {
-            themeColor = "rgb(2, 8, 23)";
-            themeStroke = "rgba(248, 250, 252, 0.87)";
-        }
-        const color = d3.scaleOrdinal(["tag", "note"], ["#7574C2", themeColor]);
+        /* 1. 데이터 세팅 */
+        let nodes = data.nodes;
+        let links = data.links;
 
+        // 태그그룹 제외
+        if (!showTags) {
+            nodes = nodes.filter(node => {return node.group !== "tag"});
+            links = links.filter(link => {return link.group !== "tag"});
+        }
+
+        /* 2. 노드 설정 */
         const svg = d3.select(`#${graphId}`)
             .attr("width", width)
             .attr("height", height)
@@ -84,17 +42,18 @@
         svg.selectAll("*").remove();
 
         const zoom = d3.zoom()
-            .scaleExtent([0.1, 10])
+            .scaleExtent([0.5, 5])
             .on("zoom", (event) => {
                 g.attr("transform", event.transform);
-                g.selectAll("text").style("display", event.transform.k > 1.5 ? "block" : "none");
+                zoomLevel = event.transform.k;
+                g.selectAll("text").style("display", zoomLevel > 1.5 ? "block" : "none");
 
                 // Adjust the repulsion strength based on zoom level
-                const newStrength = -30 * (event.transform.k * 1.5); // Example scaling factor
+                const newStrength = -150 * (event.transform.k * 1.5); // Example scaling factor
                 simulation.force("charge").strength(newStrength);
 
                 // Adjust link distance based on zoom level
-                const newLinkDistance = 30 * (event.transform.k * 1.5); // Example scaling factor
+                const newLinkDistance = 150 * (event.transform.k * 1.5); // Example scaling factor
                 simulation.force("link").distance(newLinkDistance);
 
                 simulation.alpha(1).restart(); // Reheat the simulation to apply changes
@@ -104,20 +63,13 @@
 
         const g = svg.append("g");
 
-        const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id((d) => d.id).distance(30))
-            .force("charge", d3.forceManyBody().strength(-30)) // Initial repulsion strength
-            .force("center", d3.forceCenter(width / 2, height / 2))
-            .force("x", d3.forceX())
-            .force("y", d3.forceY())
-
         const link = g.append("g")
             .attr("stroke", themeStroke)
+            .attr("stroke-width", 1)
             .attr("stroke-opacity", 0.6)
             .selectAll("line")
             .data(links)
-            .join("line")
-            .attr("stroke-width", d => Math.sqrt(d.value));
+            .join("line");
 
         const node = g.append("g")
             .attr("stroke", themeStroke)
@@ -126,24 +78,44 @@
             .data(nodes)
             .join("g")
             .call(d3.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended))
-            .on("click", (event, d) => {
+            .on("click", (e, d) => {
                 if (d.url) {
                     window.location.href = d.url;
+                }
+            })
+            .on("mouseover", (e, d) => {
+                d3.select(e.currentTarget).select("text").style("display", "block");
+            })
+            .on("mouseleave", (e, d) => {
+                if (zoomLevel <= 1.5) {
+                    d3.select(e.currentTarget).select("text").style("display", "none");
                 }
             });
 
         node.append("circle")
-            .attr("r", 5)
-            .attr("fill", d => color(d.group));
+            .attr("r", 10)
+            .attr("fill", d => color(d.group))
+            .style("cursor", "pointer");
 
         node.append("text")
             .text((d) => d.title)
-            .attr("y", 12)
+            .attr("y", 20)
             .style("font-size", "0.5rem")
             .style("text-anchor", "middle")
             .style("display", "none")
+            .style("cursor", "pointer")
             .attr("class", "text-muted-foreground text-xs font-light");
 
+        /* 3. 시뮬레이션 설정 */
+        const simulation = d3.forceSimulation(nodes)
+            .force("link", d3.forceLink(links).id((d) => d.id).distance(150))
+            .force("collide", d3.forceCollide().radius(10))
+            .force("charge", d3.forceManyBody().strength(-150)) // Initial repulsion strength
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("x", d3.forceX())
+            .force("y", d3.forceY());
+
+        /* 4. 시뮬레이션 업데이트 */
         simulation.on("tick", () => {
             link
                 .attr("x1", d => d.source.x)
@@ -153,6 +125,8 @@
             node
                 .attr("transform", d => `translate(${d.x}, ${d.y})`);
         });
+
+        /* 5. 드래그 이벤트 */
 
         // Reheat the simulation when drag starts, and fix the subject position.
         function dragstarted(event) {
@@ -177,24 +151,17 @@
     }
 
     onMount(() => {
-        const width = graph.clientWidth;
-        const height = graph.clientHeight;
-
-        // console.log(graph);
-
-        drawGraph(width, height);
+        drawGraph(graph.clientWidth, graph.clientHeight);
     });
 
     afterUpdate(() => {
-
-        const width = graph.clientWidth;
-        const height = graph.clientHeight;
-
-        drawGraph(width, height);
+        drawGraph(graph.clientWidth, graph.clientHeight);
     })
 
 </script>
 {#if tagSwitch}
-    <Label>태그<Switch class="mx-2 h-4 w-9" bind:checked={showTags} /></Label>
+    <div class="absolute bottom-4">
+        <Label class="text-base">태그</Label> <Switch bind:checked={showTags} />
+    </div>
 {/if}
 <svg width="100%" height="100%" id={graphId} bind:this={graph}></svg>
