@@ -25,10 +25,13 @@ header.header,
 footer.footer {
     width: 280px;
     height: 100%;
-    overflow: hidden;
     padding: 0.5rem;
     box-sizing: border-box;
     flex-shrink: 0;
+}
+
+footer.footer {
+    overflow: hidden;
 }
 
 header.header img.logo {
