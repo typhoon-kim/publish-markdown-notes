@@ -14,10 +14,21 @@
         $currentNote = noteId;
     }
 </script>
-<article class={`relative border rounded-md shadow-md note note-${side} ${className}`} on:click={handleFocusNote} in:fade={{duration: 1000}} >
-    <Button variant="ghost" size="icon" class="absolute right-0 bottom-0 z-30" on:click={() => {
-        replace($location.replace(`/${noteId}`, ""));
-    }}>
+<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<article 
+    class={`relative border rounded-md shadow-md note note-${side} ${className}`} 
+    on:click={handleFocusNote} 
+    in:fade={{duration: 1000}} 
+    >
+    <Button 
+        variant="ghost" 
+        size="icon" 
+        class="absolute right-0 bottom-0 z-30" 
+        on:click={() => {
+            replace($location.replace(`/${noteId}`, ""));
+        }}
+        >
         <X />
     </Button>
     <Markdown note={getNote(noteId)} />

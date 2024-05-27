@@ -23,7 +23,6 @@
     {/if}
 
     <Switch
-        class="h-6 w-12 "
         on:click={toggleMode}
         checked={$mode === "dark"}
     />
