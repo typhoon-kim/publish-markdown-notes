@@ -7,11 +7,12 @@
 	export let orientation = "vertical";
 	export let scrollbarXClasses = "";
 	export let scrollbarYClasses = "";
+	export let contentClass = "";
 </script>
 
 <ScrollAreaPrimitive.Root {...$$restProps} class={cn("relative overflow-hidden", className)}>
 	<ScrollAreaPrimitive.Viewport class="h-full w-full rounded-[inherit]">
-		<ScrollAreaPrimitive.Content>
+		<ScrollAreaPrimitive.Content class={`${contentClass}`} >
 			<slot />
 		</ScrollAreaPrimitive.Content>
 	</ScrollAreaPrimitive.Viewport>

@@ -17,7 +17,7 @@
 <header class="header flex flex-col">
     <ToggleTheme class="place-self-end" />
 
-    <section class="mt-1 place-self-center flex flex-col max-w-full">
+    <section class="place-self-center flex flex-col max-w-full">
         <img class="logo place-self-center" src="/logo.jpg" alt="로고" />
         <div class="flex place-items-baseline">
             <a class="title text-center" href="/">Typhoon's Log</a>
@@ -39,22 +39,24 @@
                 </FullDialog>
             </div>
             <hr />
-            <ScrollArea class="grow h-0 mt-1">
-                <CommandList>
-                    <CommandEmpty>검색 결과가 없습니다.</CommandEmpty>
-                    <Menu {noteList}/>
-                </CommandList>
-                <hr class="my-1"/>
-                <section class="mt-2">
-                    <h2 class='hidden'>SITE INFO</h2>
-                    <div class="bg-secondary rounded-lg text-center font-light text-xs py-1">
-                        <p class="h-5">This site was created using</p>
-                        <p class="h-5">
-                            <Badge class="font-thin h-4 px-2 bg-primary text-primary-foreground" href="https://svelte.dev/" variant="link">Svelte</Badge> v.4.2.12, 
-                            <Badge class="font-thin h-4 px-2 bg-primary text-primary-foreground ms-1" href="https://tailwindcss.com/">Tailwind</Badge> v.3.4.1</p>
-                        <p class="h-5">Pep up <Badge class="font-thin h-4 pe-1">M<ArrowBigDown class="h-4" /></Badge> by Typhoon.kim. 2024.</p>
-                    </div>
-                </section>
+            <ScrollArea class="grow h-0 mt-1" contentClass="h-full">
+                <div class="flex flex-col h-full">
+                    <CommandList class= "grow">
+                        <CommandEmpty>검색 결과가 없습니다.</CommandEmpty>
+                        <Menu {noteList}/>
+                    </CommandList>
+                    <hr class="my-1"/>
+                    <section class="mt-2">
+                        <h2 class='hidden'>SITE INFO</h2>
+                        <div class="bg-secondary rounded-lg text-center font-light text-xs py-1">
+                            <p class="h-5">This site was created using</p>
+                            <p class="h-5">
+                                <Badge class="font-thin h-4 px-2 bg-primary text-primary-foreground" href="https://svelte.dev/" variant="link">Svelte</Badge> v.4.2.12, 
+                                <Badge class="font-thin h-4 px-2 bg-primary text-primary-foreground ms-1" href="https://tailwindcss.com/">Tailwind</Badge> v.3.4.1</p>
+                            <p class="h-5">Pep up <Badge class="font-thin h-4 pe-1">M<ArrowBigDown class="h-4" /></Badge> by Typhoon.kim. 2024.</p>
+                        </div>
+                    </section>
+                </div>
             </ScrollArea>
         </CommandRoot>
     </section>
