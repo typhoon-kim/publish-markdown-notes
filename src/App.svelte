@@ -3,10 +3,10 @@
     import routes from "./routes";
 	import { ModeWatcher, setMode } from "mode-watcher";
     import { onMount } from "svelte";
-    import ZeroMd from "zero-md";
+    import CustomMarkdown from "./components/custom-elements/CustomMarkdown";
 
 	onMount( () => {
-		if (!customElements.get("zero-md")) customElements.define("zero-md", ZeroMd);
+		if (!customElements.get("custom-md")) customElements.define("custom-md", CustomMarkdown);
 
 		const hour = new Date().getHours();
 		if (hour > 6 && hour <= 18) setMode("light"); else setMode("dark");
