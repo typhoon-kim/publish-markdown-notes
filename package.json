@@ -1,25 +1,20 @@
 {
   "name": "markdown-notebook-svelte",
+  "description": "Web notebook(blog) for markdown files",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1-beta",
   "type": "module",
   "scripts": {
+    "predev": "generate-metadata --content ./public/publish/ --output ./src/assets/data",
     "dev": "vite",
+    "prebuild": "generate-metadata --content ./public/publish/ --output ./src/assets/data",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@typh007/markdown-metadata": "^1.0.0",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.33",
-    "sass": "^1.77.1",
-    "svelte": "^4.2.12",
-    "svelte-spa-router": "^4.0.1",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.2.0"
-  },
-  "dependencies": {
-    "@typh007/markdown-metadata": "file:../generate-metadata-of-markdown",
     "bits-ui": "^0.21.9",
     "clsx": "^2.1.1",
     "cmdk-sv": "^0.0.17",
@@ -28,8 +23,14 @@
     "lucide-svelte": "^0.378.0",
     "mode-watcher": "^0.3.0",
     "paneforge": "^0.0.4",
+    "postcss": "^8.4.33",
+    "sass": "^1.77.1",
+    "svelte": "^4.2.12",
+    "svelte-spa-router": "^4.0.1",
     "tailwind-merge": "^2.3.0",
     "tailwind-variants": "^0.2.1",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.2.0",
     "zero-md": "^3.0.0"
   }
 }
