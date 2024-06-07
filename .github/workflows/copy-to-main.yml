@@ -1,0 +1,48 @@
+name: Process Markdown and Copy to main
+
+on:
+  push:
+    branches:
+      - manuscript
+
+jobs:
+  process-and-copy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout manuscript branch
+      uses: actions/checkout@v2
+      with:
+        ref: manuscript
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Generate metadata
+      run: npm run prebuild
+
+    - name: Checkout main branch
+      uses: actions/checkout@v2
+      with:
+        ref: main
+        path: main
+
+    - name: Copy generated metadata to main
+      run: |
+        cp -r dist/* main/dist/
+
+    - name: Commit and push changes to main
+      working-directory: main
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m "Update metadata and build from manuscript"
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
