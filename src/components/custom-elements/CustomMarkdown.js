@@ -81,7 +81,7 @@ export default class CustomMarkdown extends ZeroMdBase {
         this.template +=
             stylesheets
                 .map(([href, ...attrs]) => `<link ${['rel="stylesheet"', ...attrs].join(' ')} href="${href}">`)
-                .join('') + '<style>.markdown-alert{padding:0.25rem 0 0 1rem!important;}</style>';
+                .join('') + '<style>.markdown-alert{padding:0.25rem 0 0 1rem!important;} .markdown-body {background-color: #00000000 !important;}</style>';
 
         console.log(this.template);
 
