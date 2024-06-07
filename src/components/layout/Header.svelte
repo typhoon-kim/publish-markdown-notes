@@ -6,10 +6,10 @@
     import Button from "$lib/components/ui/button/button.svelte";
     import ContactMe from "../contents/ContactMe.svelte";
     import Badge from "$lib/components/ui/badge/badge.svelte";
-    import FullDialog from "../contents/FullDialog.svelte";
-    import GraphView from "../GraphView.svelte";
-    import { noteList } from "$store";
-    import ToggleTheme from "../ToggleTheme.svelte";
+    import FullDialog from "../common/FullDialog.svelte";
+    import GraphView from "../common/GraphView.svelte";
+    import { graphData, notedata } from "$store";
+    import ToggleTheme from "../common/ToggleTheme.svelte";
 
     let search = undefined;
 </script>
@@ -35,7 +35,7 @@
                 </Button>
                 <FullDialog class="" title="Graph View" tooltip="Graph View" tooltipAlign="right">
                     <Waypoints slot="button-icon" />
-                    <GraphView id="graph-full" tagSwitch />
+                    <GraphView id="graph-full" tagSwitch data={$graphData} />
                 </FullDialog>
             </div>
             <hr />
@@ -43,7 +43,7 @@
                 <div class="flex flex-col h-full">
                     <CommandList class= "grow">
                         <CommandEmpty>검색 결과가 없습니다.</CommandEmpty>
-                        <Menu {noteList}/>
+                        <Menu {notedata}/>
                     </CommandList>
                     <hr class="my-1"/>
                     <section class="mt-2">

@@ -2,7 +2,7 @@
     import MenuGroup from "./MenuGroup.svelte";
     import MenuItem from "./MenuItem.svelte";
 
-    export let noteList;
+    export let notedata;
 
     function createMenuData(notes) {
         const menu = {};
@@ -34,7 +34,7 @@
         return menu;
     }
 
-    let menuData = createMenuData($noteList);
+    let menuData = createMenuData($notedata);
 </script>
 
 {#each Object.keys(menuData) as key}

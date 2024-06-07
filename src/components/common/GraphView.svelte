@@ -58,7 +58,7 @@
             themeStroke = "rgba(248, 250, 252, 0.87)";
         }
 
-        const color = d3.scaleOrdinal(["tag", "note"], ["#7574C2", "currentColor"]);
+        const color = d3.scaleOrdinal(["tag", "note", "note-in", "note-out"], ["#7574C2", "currentColor", "currentColor", "currentColor"]);
 
         const g = svg.append("g");
 
@@ -156,7 +156,6 @@
     afterUpdate(() => {
         drawGraph(graph.clientWidth, graph.clientHeight);
     })
-
 </script>
 {#if tagSwitch}
     <div class="absolute bottom-4">

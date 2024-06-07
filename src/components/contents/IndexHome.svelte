@@ -4,7 +4,7 @@
     import Separator from "$lib/components/ui/separator/separator.svelte";
     import IndexItem from "./IndexItem.svelte";
     import { onMount } from "svelte";
-    import { noteList } from "$store";
+    import { notedata } from "$store";
 
     let title = "전체 글 목록";
     let indexData;
@@ -14,17 +14,17 @@
         if (query.has("tag")) {
             const tag = query.get("tag");
             title = `'${tag}'태그에 속한 글 목록`;
-            indexData = $noteList.filter((note) => {
+            indexData = $notedata.filter((note) => {
                 return note.tags.includes(tag);
             });
         } else if (query.has("category")) {
             const category = query.get("category");
             title = `카테고리 '${category.replace("/", " > ")}'에 속한 글 목록`;
-            indexData = $noteList.filter((note) => {
+            indexData = $notedata.filter((note) => {
                 return note.route.join("/") === category;
             });
         } else {
-            indexData = [...$noteList];
+            indexData = [...$notedata];
         }
     
         indexData.sort((note_a, note_b) => {

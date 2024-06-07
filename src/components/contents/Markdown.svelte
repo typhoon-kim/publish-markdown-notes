@@ -1,17 +1,11 @@
 <script>
-    import {
-        Breadcrumb,
-        BreadcrumbItem,
-        BreadcrumbLink,
-        BreadcrumbList,
-        BreadcrumbPage,
-        BreadcrumbSeparator,
-    } from "$lib/components/ui/breadcrumb";
+    import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "$lib/components/ui/breadcrumb";
     import ScrollAreaWithProgress from "$lib/components/ui/scroll-area-with-progress/scroll-area-with-progress.svelte";
     import { mode } from "mode-watcher";
     export let note;
     let className = undefined;
     export { className as class };
+    
 </script>
 
 <ScrollAreaWithProgress class={`h-full w-full ${className}`}>
