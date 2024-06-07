@@ -11,5 +11,7 @@ export default defineConfig({
       $lib: path.resolve("./src/lib"),
       $store: path.resolve("./src/store.js")
     }
-  }
+  },
+
+  publicDir: './public',
 })

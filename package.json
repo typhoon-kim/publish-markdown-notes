@@ -5,15 +5,16 @@
   "version": "0.0.1-beta",
   "type": "module",
   "scripts": {
-    "predev": "generate-metadata --content ./public/publish/ --output ./src/assets/data",
+    "predev": "generate-metadata-cjs --content ./public/publish/ --output ./public/data --without-root",
     "dev": "vite",
-    "prebuild": "generate-metadata --content ./public/publish/ --output ./src/assets/data",
+    "prebuild": "generate-metadata-cjs --content ./public/publish/ --output ./dist/data --without-root",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "metadata": "generate-metadata-cjs --content ./public/publish/ --output ./public/data --without-root"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
-    "@typh007/markdown-metadata": "^1.0.0",
+    "@typh007/markdown-metadata": "file:../generate-metadata-of-markdown",
     "autoprefixer": "^10.4.16",
     "bits-ui": "^0.21.9",
     "clsx": "^2.1.1",
